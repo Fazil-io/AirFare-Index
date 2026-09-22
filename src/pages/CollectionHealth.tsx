@@ -52,12 +52,12 @@ export const CollectionHealth: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
           <button
             onClick={isGuest ? undefined : triggerLiveScrape}
             disabled={isScrapingNow || isGuest}
             title={isGuest ? 'Guest mode: Real-time scraping is restricted to VayuSuchak Statistical Officers' : 'Trigger real-time multi-OTA web scrapers'}
-            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs text-white shadow-md transition-all ${
+            className={`flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs text-white shadow-md transition-all ${
               isGuest
                 ? 'bg-slate-800/80 text-slate-400 border border-slate-700/60 cursor-not-allowed'
                 : isScrapingNow
@@ -73,7 +73,7 @@ export const CollectionHealth: React.FC = () => {
             <span>{isGuest ? 'Scraping Restricted (Guest)' : isScrapingNow ? 'Scraping Live OTA...' : 'Trigger Real-time Scraping'}</span>
           </button>
 
-          <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-900 border border-slate-800 self-start md:self-auto">
+          <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-900 border border-slate-800 self-stretch sm:self-auto">
             <Radio className="w-5 h-5 text-emerald-400 animate-pulse" />
             <div className="text-xs">
               <span className="font-bold text-slate-100 block">{operationalCount} Sources Active</span>
@@ -84,7 +84,7 @@ export const CollectionHealth: React.FC = () => {
       </div>
 
       {/* 4 Summary Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <div className="glass-panel rounded-xl p-4 border border-slate-800">
           <div className="flex items-center justify-between text-slate-400 text-xs">
             <span>24h Ingestion Volume</span>

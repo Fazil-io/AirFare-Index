@@ -142,13 +142,13 @@ export const Reports: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-3 self-start md:self-auto shrink-0">
           <a
             href="/Airfare_Intelligence_Algorithm_Specification.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download="Airfare_Intelligence_Algorithm_Specification.pdf"
-            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition-all shadow-md cursor-pointer"
+            className="flex items-center gap-2 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition-all shadow-md cursor-pointer"
           >
             <Download className="w-4 h-4" />
             <span>Algorithm Specification (PDF)</span>
@@ -157,13 +157,13 @@ export const Reports: React.FC = () => {
       </div>
 
       {/* Generator Console */}
-      <div className="ui-card p-6 border space-y-4">
+      <div className="ui-card p-4 sm:p-6 border space-y-4">
         <h3 className="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-2">
           <FileText className="w-4 h-4 text-blue-600 dark:text-blue-400" />
           Generate New Airfare Intelligence Dossier
         </h3>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 pt-2">
           {/* Report Type */}
           <div className="space-y-1.5">
             <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">Report Template</label>
@@ -189,7 +189,7 @@ export const Reports: React.FC = () => {
                 <button
                   key={fmt}
                   onClick={() => setSelectedFormat(fmt)}
-                  className={`p-2.5 rounded-xl border text-xs font-mono font-bold transition-all cursor-pointer ${
+                  className={`p-2 sm:p-2.5 rounded-xl border text-xs font-mono font-bold transition-all cursor-pointer ${
                     selectedFormat === fmt
                       ? 'bg-blue-600 border-blue-500 text-white shadow-sm'
                       : 'bg-slate-50 dark:bg-[#060b17] border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
@@ -216,12 +216,12 @@ export const Reports: React.FC = () => {
               {isGuest ? (
                 <>
                   <Lock className="w-4 h-4 text-amber-400" />
-                  <span>Report Creation Restricted (Guest)</span>
+                  <span>Creation Restricted (Guest)</span>
                 </>
               ) : generating ? (
                 <>
                   <span className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-                  <span>Compiling Mathematical Engine...</span>
+                  <span>Compiling...</span>
                 </>
               ) : (
                 <>
@@ -235,7 +235,7 @@ export const Reports: React.FC = () => {
       </div>
 
       {/* Published Reports Registry */}
-      <div className="ui-card p-5 border">
+      <div className="ui-card p-4 sm:p-5 border">
         <div className="flex items-center justify-between mb-4">
           <div>
             <h3 className="text-sm font-bold text-slate-900 dark:text-white">Disseminated Dossiers Archive</h3>

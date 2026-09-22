@@ -106,13 +106,13 @@ export const LeadTimeAnalysis: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex items-center gap-2 bg-slate-100 dark:bg-slate-950 p-1 rounded-xl border border-slate-200 dark:border-slate-800 text-xs">
-          <span className="text-slate-500 dark:text-slate-400 px-2 font-mono text-[11px]">Carrier Filter:</span>
+        <div className="flex items-center gap-1.5 sm:gap-2 bg-slate-100 dark:bg-slate-950 p-1 rounded-xl border border-slate-200 dark:border-slate-800 text-xs overflow-x-auto no-scrollbar flex-nowrap shrink-0 self-start md:self-auto w-full md:w-auto">
+          <span className="text-slate-500 dark:text-slate-400 px-1.5 sm:px-2 font-mono text-[10px] sm:text-[11px] shrink-0">Carrier:</span>
           {['ALL', 'IndiGo', 'Air India', 'Akasa Air'].map(c => (
             <button
               key={c}
               onClick={() => setSelectedAirline(c)}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all cursor-pointer ${
+              className={`px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg font-medium transition-all cursor-pointer shrink-0 text-xs ${
                 selectedAirline === c
                   ? 'bg-blue-600 text-white shadow-sm font-bold'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
@@ -125,7 +125,7 @@ export const LeadTimeAnalysis: React.FC = () => {
       </div>
 
       {/* 4 Window Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
         {windowMetrics.map(item => (
           <div key={item.window} className={`ui-card rounded-xl p-4.5 border ${item.color}`}>
             <div className="flex items-center justify-between">

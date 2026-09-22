@@ -96,7 +96,7 @@ export const RouteIntelligence: React.FC = () => {
         </div>
 
         {/* Tier filter pill buttons */}
-        <div className="flex items-center gap-2 self-start md:self-auto overflow-x-auto w-full md:w-auto">
+        <div className="flex items-center gap-2 self-start md:self-auto overflow-x-auto no-scrollbar flex-nowrap w-full md:w-auto shrink-0 select-none pb-1 md:pb-0">
           <span className="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1 font-medium shrink-0">
             <Filter className="w-3.5 h-3.5" /> Tier:
           </span>

@@ -90,14 +90,14 @@ export const IntroAnimation: React.FC<IntroAnimationProps> = ({ onComplete, forc
       {/* Skip Button for Evaluators / Quick Navigation */}
       <button
         onClick={handleSkip}
-        className="absolute top-6 right-6 z-20 px-3.5 py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border border-white/10 text-xs font-mono tracking-wider transition-all duration-200 backdrop-blur-md cursor-pointer flex items-center gap-1.5"
+        className="absolute top-4 right-4 sm:top-6 sm:right-6 z-20 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border border-white/10 text-[11px] sm:text-xs font-mono tracking-wider transition-all duration-200 backdrop-blur-md cursor-pointer flex items-center gap-1.5"
       >
-        <span>Skip to Dashboard</span>
+        <span>Skip</span>
         <span className="text-[10px] text-slate-500">ESC ➔</span>
       </button>
 
       {/* Main Logo Showcase Arena */}
-      <div className="relative z-10 flex flex-col items-center justify-center">
+      <div className="relative z-10 flex flex-col items-center justify-center scale-[0.75] sm:scale-90 md:scale-100 origin-center transition-transform">
         {/* Emblem Stage: 280x280 Circle Arena */}
         <div className="relative w-[280px] h-[280px] flex items-center justify-center">
           {/* Circular Orbit Track & Contrail Painting SVG */}

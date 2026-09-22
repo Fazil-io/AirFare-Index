@@ -36,65 +36,65 @@ export const Explainability: React.FC = () => {
         {/* Node Bar */}
         <div
           onClick={() => hasChildren && toggleNode(node.name)}
-          className={`flex items-center justify-between p-3.5 rounded-xl border transition-all my-1 ${
+          className={`flex flex-col sm:flex-row sm:items-center justify-between p-3 sm:p-3.5 rounded-xl border transition-all my-1 gap-2 ${
             hasChildren ? 'cursor-pointer hover:border-blue-500/50' : ''
           } ${
             depth === 0
               ? 'bg-blue-50/70 dark:bg-blue-950/40 border-blue-200 dark:border-blue-500/50 shadow-sm'
               : depth === 1
-              ? 'bg-white dark:bg-slate-900/90 border-slate-200 dark:border-slate-800 ml-6'
+              ? 'bg-white dark:bg-slate-900/90 border-slate-200 dark:border-slate-800 ml-2 sm:ml-6'
               : depth === 2
-              ? 'bg-slate-50/80 dark:bg-slate-950 border-slate-200/80 dark:border-slate-800/80 ml-12'
-              : 'bg-slate-100/50 dark:bg-slate-950/60 border-slate-200/50 dark:border-slate-800/50 ml-16'
+              ? 'bg-slate-50/80 dark:bg-slate-950 border-slate-200/80 dark:border-slate-800/80 ml-4 sm:ml-12'
+              : 'bg-slate-100/50 dark:bg-slate-950/60 border-slate-200/50 dark:border-slate-800/50 ml-6 sm:ml-16'
           }`}
         >
           {/* Left: Expander & Title */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
             {hasChildren ? (
-              <button className="p-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+              <button className="p-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 shrink-0">
                 {isExpanded ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
               </button>
             ) : (
-              <div className="w-5 h-5 flex items-center justify-center">
+              <div className="w-5 h-5 flex items-center justify-center shrink-0">
                 <span className="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500"></span>
               </div>
             )}
 
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="text-xs font-bold text-slate-900 dark:text-white">{node.name}</span>
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400">
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <span className="text-xs font-bold text-slate-900 dark:text-white truncate">{node.name}</span>
+                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 shrink-0">
                   Weight: {(node.weight * 100).toFixed(1)}%
                 </span>
               </div>
-              <div className="text-[11px] text-slate-500 dark:text-slate-400 font-mono mt-0.5">
+              <div className="text-[11px] text-slate-500 dark:text-slate-400 font-mono mt-0.5 truncate">
                 Val: ₹{node.currentValue.toLocaleString('en-IN')} (Prev: ₹{node.previousValue.toLocaleString('en-IN')})
               </div>
             </div>
           </div>
 
           {/* Right: Contribution Points and Share */}
-          <div className="flex items-center gap-4 text-right font-mono">
+          <div className="flex items-center justify-between sm:justify-end gap-3 sm:gap-4 text-right font-mono self-end sm:self-auto border-t sm:border-t-0 pt-1.5 sm:pt-0 w-full sm:w-auto border-slate-100 dark:border-slate-800">
             <div>
-              <div className="text-xs font-bold text-rose-500 dark:text-rose-400 flex items-center justify-end gap-0.5">
+              <div className="text-xs font-bold text-rose-500 dark:text-rose-400 flex items-center sm:justify-end gap-0.5">
                 <ArrowUpRight className="w-3.5 h-3.5" />
                 +{node.contributionPoints.toFixed(2)} pts
               </div>
-              <span className="text-[10px] text-slate-400 dark:text-slate-500">Index Contribution</span>
+              <span className="text-[10px] text-slate-400 dark:text-slate-500">Contribution</span>
             </div>
 
-            <div className="w-20 hidden sm:block text-right">
+            <div className="w-20 text-right">
               <span className="text-xs font-bold text-blue-600 dark:text-blue-400">
                 {node.percentageShare.toFixed(1)}%
               </span>
-              <span className="text-[10px] text-slate-400 dark:text-slate-500 block">of Total Rise</span>
+              <span className="text-[10px] text-slate-400 dark:text-slate-500 block">of Rise</span>
             </div>
           </div>
         </div>
 
         {/* Children Render */}
         {hasChildren && isExpanded && (
-          <div className="flex flex-col border-l-2 border-slate-200 dark:border-slate-800 ml-4 pl-1">
+          <div className="flex flex-col border-l-2 border-slate-200 dark:border-slate-800 ml-2 sm:ml-4 pl-1">
             {node.children!.map(child => renderNode(child, depth + 1))}
           </div>
         )}

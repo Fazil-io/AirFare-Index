@@ -27,64 +27,64 @@ export const AnomalyReviewModal: React.FC<AnomalyReviewModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4 overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 backdrop-blur-xs p-3 sm:p-4 overflow-y-auto">
       <div className="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
-          <div className="flex items-center gap-3">
-            <div className="p-2 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-400">
-              <ShieldAlert className="w-5 h-5" />
+        <div className="px-4 sm:px-6 py-3.5 sm:py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <div className="p-2 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-400 shrink-0">
+              <ShieldAlert className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <h3 className="text-base font-bold text-slate-100 font-mono">{anomaly.id}</h3>
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <h3 className="text-sm sm:text-base font-bold text-slate-100 font-mono truncate">{anomaly.id}</h3>
                 <SeverityTag severity={anomaly.severity} />
                 <StatusBadge status={anomaly.status} />
               </div>
-              <p className="text-xs text-slate-400 mt-0.5">
+              <p className="text-[11px] sm:text-xs text-slate-400 mt-0.5 truncate">
                 Route: <span className="text-slate-200 font-semibold">{anomaly.routeCode}</span> ({anomaly.origin} → {anomaly.destination})
               </p>
             </div>
           </div>
           <button
             onClick={onClose}
-            className="p-1 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-slate-800 transition-colors"
+            className="p-1.5 rounded-lg text-slate-400 hover:text-slate-100 hover:bg-slate-800 transition-colors shrink-0 ml-2 cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Modal Body */}
-        <div className="p-6 space-y-5 max-h-[75vh] overflow-y-auto">
+        <div className="p-4 sm:p-6 space-y-4 sm:space-y-5 max-h-[72vh] overflow-y-auto">
           {/* Comparison Metrics Grid */}
-          <div className="grid grid-cols-3 gap-3">
-            <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">
+            <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
               <span className="text-[11px] font-medium text-slate-400 block mb-1">Observed Fare</span>
-              <span className="text-xl font-bold font-mono text-rose-400">
+              <span className="text-lg sm:text-xl font-bold font-mono text-rose-400">
                 ₹{anomaly.observedFare.toLocaleString('en-IN')}
               </span>
               <span className="text-[10px] text-slate-500 block mt-1">From: {anomaly.source}</span>
             </div>
 
-            <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
+            <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
               <span className="text-[11px] font-medium text-slate-400 block mb-1">Expected Corridor Range</span>
-              <span className="text-base font-bold font-mono text-slate-300">
+              <span className="text-sm sm:text-base font-bold font-mono text-slate-300">
                 ₹{anomaly.expectedMin.toLocaleString('en-IN')} - ₹{anomaly.expectedMax.toLocaleString('en-IN')}
               </span>
               <span className="text-[10px] text-slate-500 block mt-1">30d Normative Band</span>
             </div>
 
-            <div className="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
+            <div className="p-3 rounded-xl bg-slate-950 border border-slate-800">
               <span className="text-[11px] font-medium text-slate-400 block mb-1">Statistical Z-Score</span>
-              <span className="text-xl font-bold font-mono text-amber-400">
+              <span className="text-lg sm:text-xl font-bold font-mono text-amber-400">
                 {anomaly.zScore > 0 ? `+${anomaly.zScore}` : anomaly.zScore}σ
               </span>
-              <span className="text-[10px] text-slate-500 block mt-1">Historical Median: ₹{anomaly.historicalMedian.toLocaleString('en-IN')}</span>
+              <span className="text-[10px] text-slate-500 block mt-1">Historical: ₹{anomaly.historicalMedian.toLocaleString('en-IN')}</span>
             </div>
           </div>
 
           {/* Rule Triggered */}
-          <div className="p-3.5 rounded-xl bg-blue-950/30 border border-blue-900/50 flex items-start gap-2.5">
+          <div className="p-3 rounded-xl bg-blue-950/30 border border-blue-900/50 flex items-start gap-2.5">
             <Info className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
             <div className="text-xs">
               <span className="font-semibold text-blue-300">Detection Logic: </span>
@@ -97,13 +97,13 @@ export const AnomalyReviewModal: React.FC<AnomalyReviewModalProps> = ({
             <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-2">
               Cross-Airline Peer Comparison (Same Departure Window)
             </span>
-            <div className="rounded-xl border border-slate-800 overflow-hidden bg-slate-950/40">
-              <table className="w-full text-xs text-left">
+            <div className="rounded-xl border border-slate-800 overflow-x-auto bg-slate-950/40">
+              <table className="w-full text-xs text-left min-w-[340px]">
                 <thead className="bg-slate-800/60 text-slate-400 text-[11px] uppercase">
                   <tr>
-                    <th className="px-4 py-2 font-semibold">Airline / Flight</th>
-                    <th className="px-4 py-2 font-semibold">Observed Quote</th>
-                    <th className="px-4 py-2 font-semibold">Divergence</th>
+                    <th className="px-3.5 py-2 font-semibold">Airline / Flight</th>
+                    <th className="px-3.5 py-2 font-semibold">Observed Quote</th>
+                    <th className="px-3.5 py-2 font-semibold">Divergence</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-800/60 font-mono">
@@ -111,9 +111,9 @@ export const AnomalyReviewModal: React.FC<AnomalyReviewModalProps> = ({
                     const diff = peer.fare - anomaly.historicalMedian;
                     return (
                       <tr key={idx} className="hover:bg-slate-800/30">
-                        <td className="px-4 py-2.5 text-slate-300 font-sans font-medium">{peer.airline}</td>
-                        <td className="px-4 py-2.5 text-slate-100 font-bold">₹{peer.fare.toLocaleString('en-IN')}</td>
-                        <td className="px-4 py-2.5">
+                        <td className="px-3.5 py-2.5 text-slate-300 font-sans font-medium">{peer.airline}</td>
+                        <td className="px-3.5 py-2.5 text-slate-100 font-bold">₹{peer.fare.toLocaleString('en-IN')}</td>
+                        <td className="px-3.5 py-2.5">
                           <span className={diff > 0 ? 'text-amber-400' : 'text-emerald-400'}>
                             {diff > 0 ? `+₹${diff.toLocaleString('en-IN')}` : `-₹${Math.abs(diff).toLocaleString('en-IN')}`}
                           </span>
@@ -166,22 +166,22 @@ export const AnomalyReviewModal: React.FC<AnomalyReviewModalProps> = ({
         </div>
 
         {/* Modal Footer / Review Actions */}
-        <div className="px-6 py-4 border-t border-slate-800 bg-slate-950 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <div className="px-4 sm:px-6 py-3.5 sm:py-4 border-t border-slate-800 bg-slate-950 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <div className="text-[11px] text-slate-500">
             {isGuest ? (
               <span className="flex items-center gap-1.5 text-amber-400/90 font-medium">
                 <Lock className="w-3.5 h-3.5 shrink-0 text-amber-500" />
-                <span>Guest Mode: Adjudication, noise rejection, and outlier confirmation restricted to VayuSuchak Officers.</span>
+                <span>Guest Mode: Adjudication restricted to VayuSuchak Officers.</span>
               </span>
             ) : (
-              '*Review creates an append-only audit event in the VayuSuchak registry.'
+              '*Creates an append-only audit event in the VayuSuchak registry.'
             )}
           </div>
-          <div className="flex items-center gap-2 self-end sm:self-auto">
+          <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto justify-end">
             {isGuest ? (
               <button
                 onClick={onClose}
-                className="px-4 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 transition-all cursor-pointer"
+                className="w-full sm:w-auto px-4 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-200 transition-all cursor-pointer text-center"
               >
                 Close View
               </button>
@@ -189,24 +189,24 @@ export const AnomalyReviewModal: React.FC<AnomalyReviewModalProps> = ({
               <>
                 <button
                   onClick={() => handleAction('REJECTED')}
-                  className="px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/80 text-xs text-slate-300 hover:bg-slate-700 hover:text-white transition-all flex items-center gap-1.5 cursor-pointer"
+                  className="flex-1 sm:flex-none px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/80 text-xs text-slate-300 hover:bg-slate-700 hover:text-white transition-all flex items-center justify-center gap-1.5 cursor-pointer"
                 >
                   <XCircle className="w-3.5 h-3.5 text-slate-400" />
-                  Reject as Scrape Noise
+                  Reject Noise
                 </button>
                 <button
                   onClick={() => handleAction('RESOLVED')}
-                  className="px-3 py-1.5 rounded-lg border border-emerald-700/60 bg-emerald-950/60 text-xs text-emerald-300 hover:bg-emerald-900/80 transition-all flex items-center gap-1.5 cursor-pointer"
+                  className="flex-1 sm:flex-none px-3 py-1.5 rounded-lg border border-emerald-700/60 bg-emerald-950/60 text-xs text-emerald-300 hover:bg-emerald-900/80 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
                 >
                   <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
-                  Resolve (Market Surge)
+                  Resolve
                 </button>
                 <button
                   onClick={() => handleAction('VALIDATED')}
-                  className="px-3.5 py-1.5 rounded-lg bg-rose-600 text-xs font-semibold text-white hover:bg-rose-500 shadow-md shadow-rose-900/30 transition-all flex items-center gap-1.5 cursor-pointer"
+                  className="w-full sm:w-auto px-3.5 py-1.5 rounded-lg bg-rose-600 text-xs font-semibold text-white hover:bg-rose-500 shadow-md shadow-rose-900/30 transition-all flex items-center justify-center gap-1.5 cursor-pointer"
                 >
                   <ShieldAlert className="w-3.5 h-3.5" />
-                  Validate as Outlier
+                  Validate Outlier
                 </button>
               </>
             )}
@@ -216,3 +216,4 @@ export const AnomalyReviewModal: React.FC<AnomalyReviewModalProps> = ({
     </div>
   );
 };
+

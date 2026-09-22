@@ -394,7 +394,7 @@ export const Dashboard: React.FC = () => {
         <div className="lg:col-span-5 ui-card p-4.5 flex flex-col justify-between">
           <div>
             {/* Header + Tabs */}
-            <div className="flex items-center justify-between mb-3">
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
               <div className="flex items-center gap-2">
                 <TrendingUp className="w-4 h-4 text-blue-600 dark:text-blue-400" />
                 <h3 className="text-xs font-bold text-slate-800 dark:text-slate-100">
@@ -403,7 +403,7 @@ export const Dashboard: React.FC = () => {
               </div>
 
               {/* Time Horizon Pills */}
-              <div className="flex items-center rounded-lg p-0.5 border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-[#060b17] text-[11px]">
+              <div className="flex items-center rounded-lg p-0.5 border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-[#060b17] text-[11px] shrink-0">
                 {(['7D', '30D', '90D', '1Y'] as const).map(tab => (
                   <button
                     key={tab}
@@ -421,7 +421,7 @@ export const Dashboard: React.FC = () => {
             </div>
 
             {/* Legend Dots matching reference design */}
-            <div className="flex items-center gap-3 text-[10px] text-slate-500 dark:text-slate-400 mb-2">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-[10px] text-slate-500 dark:text-slate-400 mb-2">
               <span className="flex items-center gap-1.5 font-medium">
                 <span className="w-2 h-2 rounded-full bg-[#8b5cf6]"></span> National Index
               </span>
@@ -436,7 +436,7 @@ export const Dashboard: React.FC = () => {
             {/* Recharts Area Chart with Tooltip Pin */}
             <div className="h-56 w-full relative">
               <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={trendData} margin={{ top: 15, right: 15, left: -20, bottom: 0 }}>
+                <AreaChart data={trendData} margin={{ top: 15, right: 10, left: -22, bottom: 0 }}>
                   <defs>
                     <linearGradient id="trendNat" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.25} />
@@ -469,12 +469,12 @@ export const Dashboard: React.FC = () => {
                 </AreaChart>
               </ResponsiveContainer>
 
-              {/* Exact Floating Tooltip Pin over Sep 14 from image */}
-              <div className="absolute right-6 top-1 pointer-events-none flex flex-col items-center">
-                <div className="px-2.5 py-1 rounded-lg bg-[#0d1c3a] border border-blue-500/50 shadow-md text-center text-white select-none">
-                  <div className="text-[9px] text-slate-400 uppercase font-mono">Latest Index</div>
-                  <div className="text-xs font-black font-mono text-blue-300">128.45</div>
-                  <div className="text-[9px] text-emerald-400 font-bold">+2.8%</div>
+              {/* Floating Tooltip Pin */}
+              <div className="absolute right-2 sm:right-6 top-1 pointer-events-none flex flex-col items-center">
+                <div className="px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-lg bg-[#0d1c3a] border border-blue-500/50 shadow-md text-center text-white select-none">
+                  <div className="text-[8px] sm:text-[9px] text-slate-400 uppercase font-mono">Latest Index</div>
+                  <div className="text-[11px] sm:text-xs font-black font-mono text-blue-300">128.45</div>
+                  <div className="text-[8px] sm:text-[9px] text-emerald-400 font-bold">+2.8%</div>
                 </div>
                 <div className="w-1.5 h-1.5 rounded-full bg-[#8b5cf6] ring-2 ring-white dark:ring-[#091022] mt-0.5"></div>
               </div>

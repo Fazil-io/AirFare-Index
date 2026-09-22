@@ -68,7 +68,7 @@ export const AuditTrail: React.FC = () => {
           />
         </div>
 
-        <div className="flex items-center gap-2 self-start md:self-auto overflow-x-auto w-full md:w-auto">
+        <div className="flex items-center gap-2 self-start md:self-auto overflow-x-auto no-scrollbar flex-nowrap w-full md:w-auto shrink-0 select-none pb-1 md:pb-0">
           <span className="text-xs text-slate-400 font-mono shrink-0">Stage:</span>
           {[
             'ALL',
@@ -81,7 +81,7 @@ export const AuditTrail: React.FC = () => {
             <button
               key={st}
               onClick={() => setSelectedStage(st)}
-              className={`px-2.5 py-1 rounded text-xs font-medium transition-all shrink-0 ${
+              className={`px-2.5 py-1 rounded text-xs font-medium transition-all shrink-0 cursor-pointer ${
                 selectedStage === st
                   ? 'bg-blue-600 text-white'
                   : 'bg-slate-950 text-slate-400 hover:text-slate-200 border border-slate-800'
@@ -94,8 +94,8 @@ export const AuditTrail: React.FC = () => {
       </div>
 
       {/* Audit Trail Timeline */}
-      <div className="glass-panel rounded-2xl p-6">
-        <div className="flex items-center justify-between mb-6">
+      <div className="glass-panel rounded-2xl p-4 sm:p-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4 mb-6">
           <div>
             <h3 className="text-sm font-bold text-slate-100">Chronological Execution Records</h3>
             <p className="text-xs text-slate-400">Traceable pipeline lifecycle from raw collection to published index value</p>
@@ -103,19 +103,19 @@ export const AuditTrail: React.FC = () => {
           <span className="text-xs text-slate-400 font-mono">Run: RUN-20260914-1700 (Latest Batch)</span>
         </div>
 
-        <div className="relative border-l-2 border-slate-800 ml-4 space-y-6">
+        <div className="relative border-l-2 border-slate-800 ml-2 sm:ml-4 space-y-6">
           {filtered.map(record => (
-            <div key={record.id} className="relative pl-6">
+            <div key={record.id} className="relative pl-4 sm:pl-6">
               {/* Timeline Marker Dot */}
               <div className="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-900 border-2 border-blue-500 flex items-center justify-center text-blue-400">
                 <span className="w-1.5 h-1.5 rounded-full bg-blue-400"></span>
               </div>
 
               {/* Record Content Box */}
-              <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800/90 hover:border-slate-700 transition-all space-y-3">
+              <div className="p-3.5 sm:p-4 rounded-xl bg-slate-950/80 border border-slate-800/90 hover:border-slate-700 transition-all space-y-3">
                 {/* Top Row: Stage + Time + Run ID */}
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-2.5">
-                  <div className="flex items-center gap-2.5">
+                  <div className="flex flex-wrap items-center gap-2">
                     <span className="text-xs font-bold text-slate-100 uppercase tracking-wide">
                       {record.stage}
                     </span>
@@ -139,7 +139,7 @@ export const AuditTrail: React.FC = () => {
                 <p className="text-xs text-slate-200">{record.notes}</p>
 
                 {/* Bottom Row: Metadata Chips */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-[11px] font-mono pt-1 text-slate-400">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 text-[11px] font-mono pt-1 text-slate-400">
                   <div className="p-2 rounded-lg bg-slate-900 border border-slate-800">
                     <span className="text-slate-500 block text-[9px] uppercase">Schema Version</span>
                     <span className="text-slate-300 truncate block">{record.schemaVersion}</span>
@@ -164,13 +164,13 @@ export const AuditTrail: React.FC = () => {
                 </div>
 
                 {/* Cryptographic Hash */}
-                <div className="pt-2 border-t border-slate-800/60 flex items-center justify-between text-[10px] font-mono text-slate-400">
-                  <div className="flex items-center gap-1.5 truncate">
+                <div className="pt-2 border-t border-slate-800/60 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 text-[10px] font-mono text-slate-400">
+                  <div className="flex items-center gap-1.5 min-w-0">
                     <Hash className="w-3 h-3 text-slate-400 shrink-0" />
-                    <span className="text-slate-400 font-semibold">Integrity Hash:</span>
-                    <span className="text-slate-300 truncate">{record.hash}</span>
+                    <span className="text-slate-400 font-semibold shrink-0">Integrity:</span>
+                    <span className="text-slate-300 truncate text-[9px] sm:text-[10px]">{record.hash}</span>
                   </div>
-                  <span className="text-emerald-400 shrink-0 flex items-center gap-1">
+                  <span className="text-emerald-400 shrink-0 flex items-center gap-1 self-end sm:self-auto">
                     <CheckCircle2 className="w-3 h-3" /> Signed & Audited
                   </span>
                 </div>

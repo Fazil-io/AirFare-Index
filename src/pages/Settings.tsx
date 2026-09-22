@@ -184,7 +184,7 @@ export const Settings: React.FC = () => {
         </div>
 
         {/* Section 3: User Role & API Endpoint */}
-        <div className="glass-panel rounded-2xl p-6 space-y-4">
+        <div className="glass-panel rounded-2xl p-4 sm:p-6 space-y-4">
           <div className="flex items-center gap-2.5 pb-2 border-b border-slate-800">
             <Server className="w-4 h-4 text-purple-400" />
             <h3 className="text-sm font-bold text-slate-100">User Role & FastAPI Connection</h3>
@@ -222,7 +222,7 @@ export const Settings: React.FC = () => {
         <div className="flex justify-end">
           <button
             type="submit"
-            className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-xs font-bold text-white shadow-lg shadow-blue-900/30 transition-all flex items-center gap-2 cursor-pointer"
+            className="w-full sm:w-auto justify-center px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-xs font-bold text-white shadow-lg shadow-blue-900/30 transition-all flex items-center gap-2 cursor-pointer"
           >
             <Save className="w-4 h-4" />
             <span>Save Configuration Changes</span>

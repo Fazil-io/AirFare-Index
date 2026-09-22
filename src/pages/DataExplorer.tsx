@@ -156,7 +156,7 @@ export const DataExplorer: React.FC = () => {
       </div>
 
       {/* Dataset Selector Tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-1 select-none">
+      <div className="flex items-center gap-2 overflow-x-auto no-scrollbar flex-nowrap pb-1 select-none shrink-0">
         <button
           onClick={() => { setActiveDataset('OBSERVATIONS'); setSearchTerm(''); }}
           className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-2 shrink-0 cursor-pointer ${
@@ -254,7 +254,7 @@ export const DataExplorer: React.FC = () => {
         </div>
 
         {activeDataset === 'OBSERVATIONS' && (
-          <div className="flex items-center gap-3 w-full md:w-auto overflow-x-auto">
+          <div className="flex items-center gap-3 w-full md:w-auto overflow-x-auto no-scrollbar flex-nowrap pb-1 md:pb-0 shrink-0 select-none">
             <div className="flex items-center bg-slate-50 dark:bg-[#060b17] border border-slate-200 dark:border-slate-800 rounded-lg px-2.5 py-1 text-xs text-slate-700 dark:text-slate-300 shrink-0">
               <span className="text-slate-400 text-[11px] mr-1.5 font-mono">Carrier:</span>
               <select

@@ -366,7 +366,7 @@ export const Anomalies: React.FC = () => {
           />
         </div>
 
-        <div className="flex items-center gap-3 w-full md:w-auto overflow-x-auto">
+        <div className="flex items-center gap-3 w-full md:w-auto overflow-x-auto no-scrollbar flex-nowrap pb-1 md:pb-0 shrink-0 select-none">
           {/* Status filter */}
           <div className="flex items-center bg-slate-950 p-1 rounded-lg border border-slate-800 text-xs shrink-0">
             <span className="text-slate-400 px-2 font-mono text-[11px]">Status:</span>
@@ -374,7 +374,7 @@ export const Anomalies: React.FC = () => {
               <button
                 key={st}
                 onClick={() => setStatusFilter(st)}
-                className={`px-2.5 py-1 rounded text-[11px] font-medium transition-all ${
+                className={`px-2.5 py-1 rounded text-[11px] font-medium transition-all shrink-0 cursor-pointer ${
                   statusFilter === st ? 'bg-blue-600 text-white' : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -390,7 +390,7 @@ export const Anomalies: React.FC = () => {
               <button
                 key={sev}
                 onClick={() => setSeverityFilter(sev)}
-                className={`px-2.5 py-1 rounded text-[11px] font-medium transition-all ${
+                className={`px-2.5 py-1 rounded text-[11px] font-medium transition-all shrink-0 cursor-pointer ${
                   severityFilter === sev ? 'bg-blue-600 text-white' : 'text-slate-400 hover:text-slate-200'
                 }`}
               >
@@ -413,8 +413,8 @@ export const Anomalies: React.FC = () => {
           </span>
         </div>
 
-        <div className="rounded-xl border border-slate-800 overflow-hidden bg-slate-950/40">
-          <table className="w-full text-xs text-left">
+        <div className="rounded-xl border border-slate-800 overflow-x-auto bg-slate-950/40">
+          <table className="w-full text-xs text-left min-w-[650px]">
             <thead className="bg-slate-900 text-slate-400 text-[11px] uppercase font-mono">
               <tr>
                 <th className="px-3.5 py-3">Anomaly ID</th>

@@ -7,7 +7,12 @@ import {
   PieChart,
   AlertTriangle,
   FileText,
-  Download
+  Download,
+  Clock,
+  Database,
+  Activity,
+  Settings as SettingsIcon,
+  X
 } from 'lucide-react';
 import { SidebarCloudAirplane } from '../common/BrandAssets';
 import { useTheme } from '../../context/ThemeContext';
@@ -20,7 +25,12 @@ interface NavItem {
   badge?: number | string;
 }
 
-export const Sidebar: React.FC = () => {
+interface SidebarProps {
+  onNavigate?: () => void;
+  isMobileDrawer?: boolean;
+}
+
+export const Sidebar: React.FC<SidebarProps> = ({ onNavigate, isMobileDrawer = false }) => {
   const { theme } = useTheme();
   const isDark = theme === 'dark';
   const location = useLocation();
@@ -45,10 +55,11 @@ export const Sidebar: React.FC = () => {
     return () => window.removeEventListener('anomalies_badge_updated', handleBadgeUpdate);
   }, [location.pathname]);
 
-  const navItems: NavItem[] = [
+  const primaryNavItems: NavItem[] = [
     { label: 'Dashboard', path: '/', icon: Home },
     { label: 'Airfare Trends', path: '/index-analysis', icon: TrendingUp },
     { label: 'Route Heatmap', path: '/routes', icon: MapPin },
+    { label: 'Lead Time Analysis', path: '/lead-time', icon: Clock },
     { label: 'Inflation Breakdown', path: '/explainability', icon: PieChart },
     {
       label: 'Anomaly & Alerts',
@@ -56,25 +67,38 @@ export const Sidebar: React.FC = () => {
       icon: AlertTriangle,
       badge: anomalyBadge > 0 ? anomalyBadge : undefined
     },
+    { label: 'Data Explorer', path: '/data-explorer', icon: Database },
     { label: 'Audit Trail', path: '/audit', icon: FileText },
-    { label: 'Reports & Export', path: '/reports', icon: Download }
+    { label: 'Reports & Export', path: '/reports', icon: Download },
+    { label: 'Collection Health', path: '/collection-health', icon: Activity },
+    { label: 'Settings', path: '/settings', icon: SettingsIcon }
   ];
 
   return (
     <aside
-      className={`w-56 min-w-56 flex flex-col justify-between h-[calc(100vh-4.5rem)] sticky top-18 select-none z-20 border-r transition-colors duration-200 ${
+      className={`${
+        isMobileDrawer
+          ? 'w-full flex flex-col justify-between h-full select-none'
+          : 'w-56 min-w-56 hidden lg:flex flex-col justify-between h-[calc(100vh-4.5rem)] sticky top-18 select-none z-20 border-r transition-colors duration-200'
+      } ${
         isDark ? 'bg-[#080e1e] border-[#16223e]' : 'bg-[#fcfdff] border-[#e6ecf5]'
       }`}
     >
-      {/* Top Navigation Links */}
-      <nav className="p-3 space-y-1 overflow-y-auto">
-        {navItems.map(item => {
+      {/* Navigation Links */}
+      <nav className="p-3 space-y-1 overflow-y-auto flex-1">
+        {isMobileDrawer && (
+          <div className="px-3 py-1.5 mb-2 text-[10px] font-bold font-mono tracking-wider text-slate-400 uppercase">
+            Platform Modules
+          </div>
+        )}
+        {primaryNavItems.map(item => {
           const Icon = item.icon;
           return (
             <NavLink
               key={item.path}
               to={item.path}
               end={item.path === '/'}
+              onClick={() => onNavigate?.()}
               className={({ isActive }) =>
                 `flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
                   isActive
@@ -102,10 +126,11 @@ export const Sidebar: React.FC = () => {
         })}
       </nav>
 
-      {/* Bottom Floating Cloud + Airplane Graphic from Reference Design */}
-      <div className="mt-auto w-full overflow-hidden select-none">
+      {/* Bottom Floating Cloud + Airplane Graphic */}
+      <div className="mt-auto w-full overflow-hidden select-none shrink-0">
         <SidebarCloudAirplane isDark={isDark} />
       </div>
     </aside>
   );
 };
+
