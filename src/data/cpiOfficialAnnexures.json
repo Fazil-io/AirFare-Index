@@ -1,0 +1,574 @@
+{
+  "metadata": {
+    "source": "Ministry of Statistics and Programme Implementation (MoSPI), Government of India",
+    "report": "Consumer Price Index (CPI) Press Release Annexures (Feb - Jul 2026)",
+    "baseYear": "2024 = 100",
+    "scope": "All-India Rural, Urban, Combined"
+  },
+  "monthlyGeneralCpi": [
+    {
+      "month": "Jan-25",
+      "ruralIndex": 101.81,
+      "urbanIndex": 101.49,
+      "combinedIndex": 101.67,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Feb-25",
+      "ruralIndex": 101.33,
+      "urbanIndex": 101.3,
+      "combinedIndex": 101.32,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Mar-25",
+      "ruralIndex": 101.34,
+      "urbanIndex": 101.47,
+      "combinedIndex": 101.39,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Apr-25",
+      "ruralIndex": 101.49,
+      "urbanIndex": 101.71,
+      "combinedIndex": 101.58,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "May-25",
+      "ruralIndex": 101.78,
+      "urbanIndex": 102.06,
+      "combinedIndex": 101.9,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Jun-25",
+      "ruralIndex": 102.39,
+      "urbanIndex": 102.66,
+      "combinedIndex": 102.51,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Jul-25",
+      "ruralIndex": 103.34,
+      "urbanIndex": 103.36,
+      "combinedIndex": 103.35,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Aug-25",
+      "ruralIndex": 103.84,
+      "urbanIndex": 103.6,
+      "combinedIndex": 103.74,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Sep-25",
+      "ruralIndex": 103.8,
+      "urbanIndex": 103.66,
+      "combinedIndex": 103.74,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Oct-25",
+      "ruralIndex": 103.85,
+      "urbanIndex": 103.61,
+      "combinedIndex": 103.74,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Nov-25",
+      "ruralIndex": 104.16,
+      "urbanIndex": 103.83,
+      "combinedIndex": 104.01,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Dec-25",
+      "ruralIndex": 104.19,
+      "urbanIndex": 103.98,
+      "combinedIndex": 104.1,
+      "ruralInflation": null,
+      "urbanInflation": null,
+      "combinedInflation": null
+    },
+    {
+      "month": "Jan-26",
+      "ruralIndex": 104.59,
+      "urbanIndex": 104.28,
+      "combinedIndex": 104.45,
+      "ruralInflation": 2.73,
+      "urbanInflation": 2.75,
+      "combinedInflation": 2.74
+    },
+    {
+      "month": "Feb-26",
+      "ruralIndex": 104.74,
+      "urbanIndex": 104.36,
+      "combinedIndex": 104.57,
+      "ruralInflation": 3.37,
+      "urbanInflation": 3.02,
+      "combinedInflation": 3.21
+    },
+    {
+      "month": "Apr-26",
+      "ruralIndex": 105.28,
+      "urbanIndex": 104.92,
+      "combinedIndex": 105.12,
+      "ruralInflation": 3.74,
+      "urbanInflation": 3.16,
+      "combinedInflation": 3.48
+    },
+    {
+      "month": "May-26",
+      "ruralIndex": 106.11,
+      "urbanIndex": 105.66,
+      "combinedIndex": 105.91,
+      "ruralInflation": 4.25,
+      "urbanInflation": 3.53,
+      "combinedInflation": 3.93
+    },
+    {
+      "month": "Jun-26",
+      "ruralIndex": 107.24,
+      "urbanIndex": 106.69,
+      "combinedIndex": 107.0,
+      "ruralInflation": 4.74,
+      "urbanInflation": 3.92,
+      "combinedInflation": 4.38
+    },
+    {
+      "month": "Jul-26",
+      "ruralIndex": 108.34,
+      "urbanIndex": 107.45,
+      "combinedIndex": 107.94,
+      "ruralInflation": 4.84,
+      "urbanInflation": 3.96,
+      "combinedInflation": 4.45
+    }
+  ],
+  "divisions": [
+    {
+      "divisionCode": "01",
+      "divisionName": "Food and beverages",
+      "ruralIndex": 108.97,
+      "urbanIndex": 109.33,
+      "combinedIndex": 109.1,
+      "combinedInflation": 5.24
+    },
+    {
+      "divisionCode": "02",
+      "divisionName": "Paan, tobacco and intoxicants",
+      "ruralIndex": 108.07,
+      "urbanIndex": 108.42,
+      "combinedIndex": 108.18,
+      "combinedInflation": 4.79
+    },
+    {
+      "divisionCode": "03",
+      "divisionName": "Clothing and footwear",
+      "ruralIndex": 109.47,
+      "urbanIndex": 106.8,
+      "combinedIndex": 108.45,
+      "combinedInflation": 3.38
+    },
+    {
+      "divisionCode": "04",
+      "divisionName": "Housing, water, electricity, gas and other fuels",
+      "ruralIndex": 104.61,
+      "urbanIndex": 103.4,
+      "combinedIndex": 103.85,
+      "combinedInflation": 2.16
+    },
+    {
+      "divisionCode": "05",
+      "divisionName": "Furnishings, household equipment and routine household maintenance",
+      "ruralIndex": 105.62,
+      "urbanIndex": 104.66,
+      "combinedIndex": 105.21,
+      "combinedInflation": 2.4
+    },
+    {
+      "divisionCode": "06",
+      "divisionName": "Health",
+      "ruralIndex": 104.49,
+      "urbanIndex": 105.15,
+      "combinedIndex": 104.75,
+      "combinedInflation": 1.34
+    },
+    {
+      "divisionCode": "07",
+      "divisionName": "Transport",
+      "ruralIndex": 105.73,
+      "urbanIndex": 105.51,
+      "combinedIndex": 105.63,
+      "combinedInflation": 4.43
+    },
+    {
+      "divisionCode": "08",
+      "divisionName": "Information and communication",
+      "ruralIndex": 104.55,
+      "urbanIndex": 103.89,
+      "combinedIndex": 104.26,
+      "combinedInflation": 0.63
+    },
+    {
+      "divisionCode": "09",
+      "divisionName": "Recreation, sport and culture",
+      "ruralIndex": 104.94,
+      "urbanIndex": 104.04,
+      "combinedIndex": 104.49,
+      "combinedInflation": 1.64
+    },
+    {
+      "divisionCode": "10",
+      "divisionName": "Education services",
+      "ruralIndex": 107.17,
+      "urbanIndex": 109.51,
+      "combinedIndex": 108.58,
+      "combinedInflation": 3.64
+    },
+    {
+      "divisionCode": "11",
+      "divisionName": "Restaurants and accommodation services",
+      "ruralIndex": 112.04,
+      "urbanIndex": 113.24,
+      "combinedIndex": 112.68,
+      "combinedInflation": 7.72
+    },
+    {
+      "divisionCode": "13",
+      "divisionName": "Personal care, social protection and miscellaneous goods and services",
+      "ruralIndex": 124.28,
+      "urbanIndex": 122.5,
+      "combinedIndex": 123.51,
+      "combinedInflation": 14.77
+    }
+  ],
+  "transportDivision": {
+    "divisionCode": "07",
+    "divisionName": "Transport",
+    "ruralIndex": 105.73,
+    "urbanIndex": 105.51,
+    "combinedIndex": 105.63,
+    "combinedInflation": 4.43
+  },
+  "passengerTransportGroup": [
+    {
+      "month": "Mar 2026",
+      "group": "07.3 Passenger transport services",
+      "ruralIndex": 103.34,
+      "urbanIndex": 104.12,
+      "combinedIndex": 103.67,
+      "inflation": 1.63
+    },
+    {
+      "month": "Apr 2026",
+      "group": "07.3 Passenger transport services",
+      "ruralIndex": 103.7,
+      "urbanIndex": 104.4,
+      "combinedIndex": 104.02,
+      "inflation": 1.85
+    },
+    {
+      "month": "May 2026",
+      "group": "07.3 Passenger transport services",
+      "ruralIndex": 104.12,
+      "urbanIndex": 104.7,
+      "combinedIndex": 104.36,
+      "inflation": 2.07
+    },
+    {
+      "month": "Jun 2026",
+      "group": "07.3 Passenger transport services",
+      "ruralIndex": 104.86,
+      "urbanIndex": 105.21,
+      "combinedIndex": 105.01,
+      "inflation": 2.49
+    },
+    {
+      "month": "Jul 2026",
+      "group": "07.3 Passenger transport services",
+      "ruralIndex": 105.1,
+      "urbanIndex": 105.8,
+      "combinedIndex": 105.42,
+      "inflation": 2.78
+    }
+  ],
+  "stateCpi": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "ruralIndex": 111.95,
+      "urbanIndex": 107.0,
+      "combinedIndex": 109.52,
+      "inflation": 5.08
+    },
+    {
+      "state": "Andhra Pradesh",
+      "ruralIndex": 106.9,
+      "urbanIndex": 106.86,
+      "combinedIndex": 106.88,
+      "inflation": 5.39
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "ruralIndex": 104.9,
+      "urbanIndex": 104.94,
+      "combinedIndex": 104.91,
+      "inflation": 2.47
+    },
+    {
+      "state": "Assam",
+      "ruralIndex": 105.51,
+      "urbanIndex": 104.16,
+      "combinedIndex": 105.23,
+      "inflation": 3.59
+    },
+    {
+      "state": "Bihar",
+      "ruralIndex": 105.39,
+      "urbanIndex": 104.8,
+      "combinedIndex": 105.3,
+      "inflation": 3.28
+    },
+    {
+      "state": "Chandigarh*",
+      "ruralIndex": null,
+      "urbanIndex": 107.25,
+      "combinedIndex": 107.25,
+      "inflation": 4.26
+    },
+    {
+      "state": "Chhattisgarh",
+      "ruralIndex": 104.71,
+      "urbanIndex": 104.13,
+      "combinedIndex": 104.51,
+      "inflation": 3.91
+    },
+    {
+      "state": "Goa",
+      "ruralIndex": 105.66,
+      "urbanIndex": 105.95,
+      "combinedIndex": 105.85,
+      "inflation": 3.1
+    },
+    {
+      "state": "Gujarat",
+      "ruralIndex": 106.47,
+      "urbanIndex": 106.16,
+      "combinedIndex": 106.29,
+      "inflation": 4.01
+    },
+    {
+      "state": "Haryana",
+      "ruralIndex": 107.11,
+      "urbanIndex": 106.59,
+      "combinedIndex": 106.85,
+      "inflation": 3.81
+    },
+    {
+      "state": "Himachal Pradesh",
+      "ruralIndex": 106.41,
+      "urbanIndex": 107.84,
+      "combinedIndex": 106.64,
+      "inflation": 3.33
+    },
+    {
+      "state": "Jammu And Kashmir",
+      "ruralIndex": 106.91,
+      "urbanIndex": 105.92,
+      "combinedIndex": 106.63,
+      "inflation": 3.47
+    },
+    {
+      "state": "Jharkhand",
+      "ruralIndex": 106.08,
+      "urbanIndex": 104.55,
+      "combinedIndex": 105.56,
+      "inflation": 4.29
+    },
+    {
+      "state": "Karnataka",
+      "ruralIndex": 108.54,
+      "urbanIndex": 107.35,
+      "combinedIndex": 107.94,
+      "inflation": 4.8
+    },
+    {
+      "state": "Kerala",
+      "ruralIndex": 110.06,
+      "urbanIndex": 107.92,
+      "combinedIndex": 108.88,
+      "inflation": 4.34
+    },
+    {
+      "state": "Ladakh",
+      "ruralIndex": 107.6,
+      "urbanIndex": 106.51,
+      "combinedIndex": 107.33,
+      "inflation": 4.03
+    },
+    {
+      "state": "Lakshadweep",
+      "ruralIndex": 105.99,
+      "urbanIndex": 107.54,
+      "combinedIndex": 107.12,
+      "inflation": 3.19
+    },
+    {
+      "state": "Madhya Pradesh",
+      "ruralIndex": 107.68,
+      "urbanIndex": 107.07,
+      "combinedIndex": 107.44,
+      "inflation": 5.09
+    },
+    {
+      "state": "Maharashtra",
+      "ruralIndex": 107.91,
+      "urbanIndex": 106.26,
+      "combinedIndex": 106.91,
+      "inflation": 3.81
+    },
+    {
+      "state": "Manipur",
+      "ruralIndex": 103.87,
+      "urbanIndex": 104.71,
+      "combinedIndex": 104.14,
+      "inflation": 2.94
+    },
+    {
+      "state": "Meghalaya",
+      "ruralIndex": 106.04,
+      "urbanIndex": 104.76,
+      "combinedIndex": 105.71,
+      "inflation": 2.64
+    },
+    {
+      "state": "Mizoram",
+      "ruralIndex": 104.62,
+      "urbanIndex": 103.36,
+      "combinedIndex": 103.9,
+      "inflation": 1.63
+    },
+    {
+      "state": "Nagaland",
+      "ruralIndex": 106.47,
+      "urbanIndex": 104.33,
+      "combinedIndex": 105.65,
+      "inflation": 2.83
+    },
+    {
+      "state": "NCT of Delhi",
+      "ruralIndex": 104.48,
+      "urbanIndex": 104.76,
+      "combinedIndex": 104.75,
+      "inflation": 2.96
+    },
+    {
+      "state": "Odisha",
+      "ruralIndex": 106.43,
+      "urbanIndex": 105.82,
+      "combinedIndex": 106.27,
+      "inflation": 5.15
+    },
+    {
+      "state": "Puducherry",
+      "ruralIndex": 108.87,
+      "urbanIndex": 108.32,
+      "combinedIndex": 108.49,
+      "inflation": 5.39
+    },
+    {
+      "state": "Punjab",
+      "ruralIndex": 107.97,
+      "urbanIndex": 106.76,
+      "combinedIndex": 107.41,
+      "inflation": 3.83
+    },
+    {
+      "state": "Rajasthan",
+      "ruralIndex": 107.73,
+      "urbanIndex": 106.94,
+      "combinedIndex": 107.45,
+      "inflation": 4.7
+    },
+    {
+      "state": "Sikkim",
+      "ruralIndex": 107.8,
+      "urbanIndex": 107.22,
+      "combinedIndex": 107.61,
+      "inflation": 4.49
+    },
+    {
+      "state": "Tamil Nadu",
+      "ruralIndex": 108.25,
+      "urbanIndex": 108.1,
+      "combinedIndex": 108.16,
+      "inflation": 5.24
+    },
+    {
+      "state": "Telangana",
+      "ruralIndex": 109.99,
+      "urbanIndex": 109.19,
+      "combinedIndex": 109.53,
+      "inflation": 6.36
+    },
+    {
+      "state": "The Dadra And Nagar Haveli And Daman And Diu",
+      "ruralIndex": 107.58,
+      "urbanIndex": 106.89,
+      "combinedIndex": 107.07,
+      "inflation": 4.25
+    },
+    {
+      "state": "Tripura",
+      "ruralIndex": 103.49,
+      "urbanIndex": 103.53,
+      "combinedIndex": 103.5,
+      "inflation": 1.65
+    },
+    {
+      "state": "Uttar Pradesh",
+      "ruralIndex": 107.46,
+      "urbanIndex": 106.56,
+      "combinedIndex": 107.18,
+      "inflation": 4.56
+    },
+    {
+      "state": "Uttarakhand",
+      "ruralIndex": 108.36,
+      "urbanIndex": 105.91,
+      "combinedIndex": 107.46,
+      "inflation": 4.13
+    },
+    {
+      "state": "West Bengal",
+      "ruralIndex": 106.23,
+      "urbanIndex": 105.84,
+      "combinedIndex": 106.06,
+      "inflation": 3.95
+    }
+  ]
+}

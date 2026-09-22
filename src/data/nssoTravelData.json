@@ -1,0 +1,2834 @@
+{
+  "metadata": {
+    "source": "National Sample Survey Office (NSSO), MoSPI, Government of India",
+    "survey": "Domestic Tourism Survey in India (79th Round Tables)",
+    "scope": "All Indian States and Union Territories (Rural & Urban)"
+  },
+  "nationalUrbanTripShares": {
+    "holidaying_leisure": {
+      "sharePct": 58.9,
+      "avgSpendInr": 13026,
+      "description": "Primary driver of leisure routes (Goa, Srinagar, Bagdogra)"
+    },
+    "social_visiting": {
+      "sharePct": 25.0,
+      "avgSpendInr": 3820,
+      "description": "Visiting family/relatives across domestic corridors"
+    },
+    "business": {
+      "sharePct": 12.9,
+      "avgSpendInr": 8420,
+      "description": "High-yield, inelastic Metro-Metro corridors (DEL-BOM, BLR-DEL)"
+    },
+    "pilgrimage_religious": {
+      "sharePct": 2.0,
+      "avgSpendInr": 5100,
+      "description": "Tier-2 devotional routes (VNS, ATQ, DED)"
+    },
+    "education_training": {
+      "sharePct": 0.9,
+      "avgSpendInr": 6750,
+      "description": "Student and academic movements"
+    },
+    "medical_health": {
+      "sharePct": 0.3,
+      "avgSpendInr": 14200,
+      "description": "Super-specialty medical travel to Chennai/Delhi"
+    }
+  },
+  "stateTravelVolumesTable1": [
+    {
+      "state": "Arunachal Pradesh",
+      "urbanHouseholds": 513,
+      "totalPersons": 2007,
+      "overnightVisitors": 580,
+      "avgHouseholdSize": 3.91
+    },
+    {
+      "state": "Assam",
+      "urbanHouseholds": 7718,
+      "totalPersons": 30358,
+      "overnightVisitors": 4968,
+      "avgHouseholdSize": 3.93
+    },
+    {
+      "state": "Bihar",
+      "urbanHouseholds": 20373,
+      "totalPersons": 98644,
+      "overnightVisitors": 15412,
+      "avgHouseholdSize": 4.84
+    },
+    {
+      "state": "Chhattisgarh",
+      "urbanHouseholds": 11861,
+      "totalPersons": 48007,
+      "overnightVisitors": 8194,
+      "avgHouseholdSize": 4.05
+    },
+    {
+      "state": "Delhi",
+      "urbanHouseholds": 32259,
+      "totalPersons": 132628,
+      "overnightVisitors": 30693,
+      "avgHouseholdSize": 4.11
+    },
+    {
+      "state": "Goa",
+      "urbanHouseholds": 2388,
+      "totalPersons": 8088,
+      "overnightVisitors": 1374,
+      "avgHouseholdSize": 3.39
+    },
+    {
+      "state": "Gujarat",
+      "urbanHouseholds": 53231,
+      "totalPersons": 240213,
+      "overnightVisitors": 48575,
+      "avgHouseholdSize": 4.51
+    },
+    {
+      "state": "Haryana",
+      "urbanHouseholds": 18744,
+      "totalPersons": 82184,
+      "overnightVisitors": 19982,
+      "avgHouseholdSize": 4.38
+    },
+    {
+      "state": "Himachal Pradesh",
+      "urbanHouseholds": 2141,
+      "totalPersons": 6493,
+      "overnightVisitors": 1555,
+      "avgHouseholdSize": 3.03
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "urbanHouseholds": 4854,
+      "totalPersons": 22614,
+      "overnightVisitors": 5300,
+      "avgHouseholdSize": 4.66
+    },
+    {
+      "state": "Jharkhand",
+      "urbanHouseholds": 14450,
+      "totalPersons": 64272,
+      "overnightVisitors": 13220,
+      "avgHouseholdSize": 4.45
+    },
+    {
+      "state": "Karnataka",
+      "urbanHouseholds": 60593,
+      "totalPersons": 222307,
+      "overnightVisitors": 51153,
+      "avgHouseholdSize": 3.67
+    },
+    {
+      "state": "Kerala",
+      "urbanHouseholds": 35971,
+      "totalPersons": 135510,
+      "overnightVisitors": 44326,
+      "avgHouseholdSize": 3.77
+    },
+    {
+      "state": "Madhya Pradesh",
+      "urbanHouseholds": 38588,
+      "totalPersons": 171857,
+      "overnightVisitors": 34017,
+      "avgHouseholdSize": 4.45
+    },
+    {
+      "state": "Maharashtra",
+      "urbanHouseholds": 113253,
+      "totalPersons": 462803,
+      "overnightVisitors": 98898,
+      "avgHouseholdSize": 4.09
+    },
+    {
+      "state": "Manipur",
+      "urbanHouseholds": 1685,
+      "totalPersons": 8047,
+      "overnightVisitors": 1320,
+      "avgHouseholdSize": 4.77
+    },
+    {
+      "state": "Meghalaya",
+      "urbanHouseholds": 1252,
+      "totalPersons": 5169,
+      "overnightVisitors": 830,
+      "avgHouseholdSize": 4.13
+    },
+    {
+      "state": "Mizoram",
+      "urbanHouseholds": 915,
+      "totalPersons": 4214,
+      "overnightVisitors": 545,
+      "avgHouseholdSize": 4.61
+    },
+    {
+      "state": "Nagaland",
+      "urbanHouseholds": 1026,
+      "totalPersons": 4796,
+      "overnightVisitors": 650,
+      "avgHouseholdSize": 4.68
+    },
+    {
+      "state": "Odisha",
+      "urbanHouseholds": 18016,
+      "totalPersons": 66395,
+      "overnightVisitors": 19146,
+      "avgHouseholdSize": 3.69
+    },
+    {
+      "state": "Punjab",
+      "urbanHouseholds": 25742,
+      "totalPersons": 95413,
+      "overnightVisitors": 19738,
+      "avgHouseholdSize": 3.71
+    },
+    {
+      "state": "Rajasthan",
+      "urbanHouseholds": 33140,
+      "totalPersons": 151497,
+      "overnightVisitors": 29185,
+      "avgHouseholdSize": 4.57
+    },
+    {
+      "state": "Sikkim",
+      "urbanHouseholds": 361,
+      "totalPersons": 1124,
+      "overnightVisitors": 144,
+      "avgHouseholdSize": 3.11
+    },
+    {
+      "state": "Tamil Nadu",
+      "urbanHouseholds": 96957,
+      "totalPersons": 320816,
+      "overnightVisitors": 70109,
+      "avgHouseholdSize": 3.31
+    },
+    {
+      "state": "Telangana",
+      "urbanHouseholds": 36180,
+      "totalPersons": 125298,
+      "overnightVisitors": 22321,
+      "avgHouseholdSize": 3.46
+    },
+    {
+      "state": "Tripura",
+      "urbanHouseholds": 1938,
+      "totalPersons": 6935,
+      "overnightVisitors": 1476,
+      "avgHouseholdSize": 3.58
+    },
+    {
+      "state": "Uttar Pradesh",
+      "urbanHouseholds": 81330,
+      "totalPersons": 393922,
+      "overnightVisitors": 63111,
+      "avgHouseholdSize": 4.84
+    },
+    {
+      "state": "Uttarakhand",
+      "urbanHouseholds": 5573,
+      "totalPersons": 23589,
+      "overnightVisitors": 5087,
+      "avgHouseholdSize": 4.23
+    },
+    {
+      "state": "West Bengal",
+      "urbanHouseholds": 64646,
+      "totalPersons": 241779,
+      "overnightVisitors": 50767,
+      "avgHouseholdSize": 3.74
+    },
+    {
+      "state": "A & N Islands",
+      "urbanHouseholds": 442,
+      "totalPersons": 1455,
+      "overnightVisitors": 201,
+      "avgHouseholdSize": 3.29
+    },
+    {
+      "state": "Chandigarh",
+      "urbanHouseholds": 1927,
+      "totalPersons": 7485,
+      "overnightVisitors": 1201,
+      "avgHouseholdSize": 3.88
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "urbanHouseholds": 425,
+      "totalPersons": 1519,
+      "overnightVisitors": 269,
+      "avgHouseholdSize": 3.57
+    },
+    {
+      "state": "Daman & Diu",
+      "urbanHouseholds": 703,
+      "totalPersons": 2523,
+      "overnightVisitors": 329,
+      "avgHouseholdSize": 3.59
+    },
+    {
+      "state": "Lakshadweep",
+      "urbanHouseholds": 98,
+      "totalPersons": 497,
+      "overnightVisitors": 190,
+      "avgHouseholdSize": 5.1
+    },
+    {
+      "state": "Puducherry",
+      "urbanHouseholds": 2164,
+      "totalPersons": 7527,
+      "overnightVisitors": 3122,
+      "avgHouseholdSize": 3.48
+    },
+    {
+      "state": "* for reference period of last 365 days ** for reference period of last 30 days",
+      "urbanHouseholds": null,
+      "totalPersons": null,
+      "overnightVisitors": null,
+      "avgHouseholdSize": null
+    },
+    {
+      "state": "leading purposes holidaying, leisure and recreation ;heath and medical; and shopping during last 365 days and/or at least one trip with\nleading purposes business; social; pilgrimage & religious activities; education & training; and others during last 30 days.",
+      "urbanHouseholds": null,
+      "totalPersons": null,
+      "overnightVisitors": null,
+      "avgHouseholdSize": null
+    }
+  ],
+  "visitorDistributionTable2": [
+    {
+      "state": "Andhra Pradesh",
+      "business": 1.0,
+      "holidayLeisure": 287.0,
+      "social": 17.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 394.0,
+      "shopping": 12.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "business": 4.0,
+      "holidayLeisure": 587.0,
+      "social": 30.0,
+      "pilgrimage": 3.0,
+      "education": 0.0,
+      "medical": 282.0,
+      "shopping": 89.0
+    },
+    {
+      "state": "Assam",
+      "business": 0.0,
+      "holidayLeisure": 452.0,
+      "social": 26.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 380.0,
+      "shopping": 41.0
+    },
+    {
+      "state": "Bihar",
+      "business": 1.0,
+      "holidayLeisure": 396.0,
+      "social": 62.0,
+      "pilgrimage": 7.0,
+      "education": 3.0,
+      "medical": 391.0,
+      "shopping": 11.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "business": 1.0,
+      "holidayLeisure": 555.0,
+      "social": 10.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 192.0,
+      "shopping": 77.0
+    },
+    {
+      "state": "Delhi",
+      "business": 0.0,
+      "holidayLeisure": 745.0,
+      "social": 181.0,
+      "pilgrimage": 21.0,
+      "education": 0.0,
+      "medical": 47.0,
+      "shopping": 3.0
+    },
+    {
+      "state": "Goa",
+      "business": 0.0,
+      "holidayLeisure": 317.0,
+      "social": 0.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 535.0,
+      "shopping": 34.0
+    },
+    {
+      "state": "Gujarat",
+      "business": 0.0,
+      "holidayLeisure": 821.0,
+      "social": 3.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 113.0,
+      "shopping": 3.0
+    },
+    {
+      "state": "Haryana",
+      "business": 0.0,
+      "holidayLeisure": 632.0,
+      "social": 5.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 281.0,
+      "shopping": 8.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "business": 0.0,
+      "holidayLeisure": 517.0,
+      "social": 7.0,
+      "pilgrimage": 2.0,
+      "education": 0.0,
+      "medical": 280.0,
+      "shopping": 11.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "business": 0.0,
+      "holidayLeisure": 467.0,
+      "social": 49.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 306.0,
+      "shopping": 33.0
+    },
+    {
+      "state": "Jharkhand",
+      "business": 0.0,
+      "holidayLeisure": 583.0,
+      "social": 18.0,
+      "pilgrimage": 1.0,
+      "education": 0.0,
+      "medical": 268.0,
+      "shopping": 1.0
+    },
+    {
+      "state": "Karnataka",
+      "business": 0.0,
+      "holidayLeisure": 620.0,
+      "social": 2.0,
+      "pilgrimage": 6.0,
+      "education": 0.0,
+      "medical": 241.0,
+      "shopping": 11.0
+    },
+    {
+      "state": "Kerala",
+      "business": 1.0,
+      "holidayLeisure": 285.0,
+      "social": 11.0,
+      "pilgrimage": 1.0,
+      "education": 0.0,
+      "medical": 401.0,
+      "shopping": 8.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "business": 0.0,
+      "holidayLeisure": 480.0,
+      "social": 16.0,
+      "pilgrimage": 3.0,
+      "education": 0.0,
+      "medical": 342.0,
+      "shopping": 8.0
+    },
+    {
+      "state": "Maharashtra",
+      "business": 0.0,
+      "holidayLeisure": 787.0,
+      "social": 7.0,
+      "pilgrimage": 3.0,
+      "education": 0.0,
+      "medical": 123.0,
+      "shopping": 8.0
+    },
+    {
+      "state": "Manipur",
+      "business": 0.0,
+      "holidayLeisure": 242.0,
+      "social": 0.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 369.0,
+      "shopping": 141.0
+    },
+    {
+      "state": "Meghalaya",
+      "business": 0.0,
+      "holidayLeisure": 510.0,
+      "social": 55.0,
+      "pilgrimage": 2.0,
+      "education": 1.0,
+      "medical": 247.0,
+      "shopping": 75.0
+    },
+    {
+      "state": "Mizoram",
+      "business": 0.0,
+      "holidayLeisure": 303.0,
+      "social": 1.0,
+      "pilgrimage": 1.0,
+      "education": 2.0,
+      "medical": 420.0,
+      "shopping": 177.0
+    },
+    {
+      "state": "Nagaland",
+      "business": 0.0,
+      "holidayLeisure": 330.0,
+      "social": 7.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 344.0,
+      "shopping": 231.0
+    },
+    {
+      "state": "Odisha",
+      "business": 0.0,
+      "holidayLeisure": 604.0,
+      "social": 27.0,
+      "pilgrimage": 2.0,
+      "education": 0.0,
+      "medical": 204.0,
+      "shopping": 4.0
+    },
+    {
+      "state": "Punjab",
+      "business": 1.0,
+      "holidayLeisure": 785.0,
+      "social": 8.0,
+      "pilgrimage": 1.0,
+      "education": 0.0,
+      "medical": 159.0,
+      "shopping": 3.0
+    },
+    {
+      "state": "Rajasthan",
+      "business": 0.0,
+      "holidayLeisure": 519.0,
+      "social": 3.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 265.0,
+      "shopping": 6.0
+    },
+    {
+      "state": "Sikkim",
+      "business": 0.0,
+      "holidayLeisure": 453.0,
+      "social": 12.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 264.0,
+      "shopping": 1.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "business": 0.0,
+      "holidayLeisure": 424.0,
+      "social": 13.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 355.0,
+      "shopping": 11.0
+    },
+    {
+      "state": "Telangana",
+      "business": 0.0,
+      "holidayLeisure": 527.0,
+      "social": 5.0,
+      "pilgrimage": 6.0,
+      "education": 0.0,
+      "medical": 270.0,
+      "shopping": 1.0
+    },
+    {
+      "state": "Tripura",
+      "business": 0.0,
+      "holidayLeisure": 197.0,
+      "social": 26.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 538.0,
+      "shopping": 2.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "business": 0.0,
+      "holidayLeisure": 461.0,
+      "social": 17.0,
+      "pilgrimage": 1.0,
+      "education": 0.0,
+      "medical": 334.0,
+      "shopping": 7.0
+    },
+    {
+      "state": "Uttarakhand",
+      "business": 0.0,
+      "holidayLeisure": 684.0,
+      "social": 33.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 212.0,
+      "shopping": 4.0
+    },
+    {
+      "state": "West Bengal",
+      "business": 0.0,
+      "holidayLeisure": 645.0,
+      "social": 7.0,
+      "pilgrimage": 1.0,
+      "education": 0.0,
+      "medical": 292.0,
+      "shopping": 4.0
+    },
+    {
+      "state": "A & N Islands",
+      "business": 0.0,
+      "holidayLeisure": 142.0,
+      "social": 58.0,
+      "pilgrimage": 0.0,
+      "education": 1.0,
+      "medical": 643.0,
+      "shopping": 12.0
+    },
+    {
+      "state": "Chandigarh",
+      "business": 0.0,
+      "holidayLeisure": 896.0,
+      "social": 5.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 24.0,
+      "shopping": 75.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "business": 0.0,
+      "holidayLeisure": 430.0,
+      "social": 0.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 413.0,
+      "shopping": 0.0
+    },
+    {
+      "state": "Daman & Diu",
+      "business": 21.0,
+      "holidayLeisure": 271.0,
+      "social": 0.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 477.0,
+      "shopping": 21.0
+    },
+    {
+      "state": "Lakshadweep",
+      "business": 0.0,
+      "holidayLeisure": 100.0,
+      "social": 10.0,
+      "pilgrimage": 0.0,
+      "education": 0.0,
+      "medical": 408.0,
+      "shopping": 99.0
+    },
+    {
+      "state": "Puducherry",
+      "business": 0.0,
+      "holidayLeisure": 783.0,
+      "social": 7.0,
+      "pilgrimage": 1.0,
+      "education": 0.0,
+      "medical": 158.0,
+      "shopping": 4.0
+    }
+  ],
+  "stateExpenditureTable5": [
+    {
+      "state": "Andhra Pradesh",
+      "holiday": 1718.0,
+      "medical": 15169.0,
+      "shopping": 4848.0,
+      "business": 5070.0,
+      "social": 449.0,
+      "pilgrimage": 1868.0,
+      "education": 843.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "holiday": 9429.0,
+      "medical": 10268.0,
+      "shopping": 12946.0,
+      "business": 11284.0,
+      "social": 7009.0,
+      "pilgrimage": 5499.0,
+      "education": 6363.0
+    },
+    {
+      "state": "Assam",
+      "holiday": 5485.0,
+      "medical": 6710.0,
+      "shopping": 6230.0,
+      "business": 1550.0,
+      "social": 1039.0,
+      "pilgrimage": 1398.0,
+      "education": 2472.0
+    },
+    {
+      "state": "Bihar",
+      "holiday": 2518.0,
+      "medical": 6616.0,
+      "shopping": 16400.0,
+      "business": 2007.0,
+      "social": 1322.0,
+      "pilgrimage": 2797.0,
+      "education": 942.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "holiday": 4523.0,
+      "medical": 12907.0,
+      "shopping": 6369.0,
+      "business": 2854.0,
+      "social": 626.0,
+      "pilgrimage": 2217.0,
+      "education": 950.0
+    },
+    {
+      "state": "Delhi",
+      "holiday": 10222.0,
+      "medical": 5798.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 1729.0,
+      "pilgrimage": 6184.0,
+      "education": 0.0
+    },
+    {
+      "state": "Goa",
+      "holiday": 10756.0,
+      "medical": 11261.0,
+      "shopping": 9724.0,
+      "business": 226.0,
+      "social": 1148.0,
+      "pilgrimage": 1489.0,
+      "education": 7050.0
+    },
+    {
+      "state": "Gujarat",
+      "holiday": 4699.0,
+      "medical": 14557.0,
+      "shopping": 5151.0,
+      "business": 1232.0,
+      "social": 754.0,
+      "pilgrimage": 2661.0,
+      "education": 815.0
+    },
+    {
+      "state": "Haryana",
+      "holiday": 3546.0,
+      "medical": 18728.0,
+      "shopping": 5298.0,
+      "business": 2534.0,
+      "social": 1235.0,
+      "pilgrimage": 4007.0,
+      "education": 5270.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "holiday": 11151.0,
+      "medical": 14449.0,
+      "shopping": 6706.0,
+      "business": 5110.0,
+      "social": 918.0,
+      "pilgrimage": 2113.0,
+      "education": 1973.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "holiday": 4141.0,
+      "medical": 6365.0,
+      "shopping": 9293.0,
+      "business": 1480.0,
+      "social": 1430.0,
+      "pilgrimage": 1899.0,
+      "education": 3262.0
+    },
+    {
+      "state": "Jharkhand",
+      "holiday": 1965.0,
+      "medical": 8950.0,
+      "shopping": 2168.0,
+      "business": 653.0,
+      "social": 706.0,
+      "pilgrimage": 1560.0,
+      "education": 880.0
+    },
+    {
+      "state": "Karnataka",
+      "holiday": 5771.0,
+      "medical": 14763.0,
+      "shopping": 5600.0,
+      "business": 2273.0,
+      "social": 852.0,
+      "pilgrimage": 2560.0,
+      "education": 1801.0
+    },
+    {
+      "state": "Kerala",
+      "holiday": 5330.0,
+      "medical": 15047.0,
+      "shopping": 68609.0,
+      "business": 2708.0,
+      "social": 772.0,
+      "pilgrimage": 2247.0,
+      "education": 1666.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "holiday": 2290.0,
+      "medical": 9175.0,
+      "shopping": 9109.0,
+      "business": 953.0,
+      "social": 766.0,
+      "pilgrimage": 2561.0,
+      "education": 806.0
+    },
+    {
+      "state": "Maharashtra",
+      "holiday": 2159.0,
+      "medical": 16498.0,
+      "shopping": 5650.0,
+      "business": 820.0,
+      "social": 1039.0,
+      "pilgrimage": 1993.0,
+      "education": 1352.0
+    },
+    {
+      "state": "Manipur",
+      "holiday": 8543.0,
+      "medical": 9472.0,
+      "shopping": 10372.0,
+      "business": 12131.0,
+      "social": 2424.0,
+      "pilgrimage": 3769.0,
+      "education": 4281.0
+    },
+    {
+      "state": "Meghalaya",
+      "holiday": 2459.0,
+      "medical": 3756.0,
+      "shopping": 8555.0,
+      "business": 3391.0,
+      "social": 1859.0,
+      "pilgrimage": 1674.0,
+      "education": 1759.0
+    },
+    {
+      "state": "Mizoram",
+      "holiday": 6260.0,
+      "medical": 7857.0,
+      "shopping": 8525.0,
+      "business": 4431.0,
+      "social": 2023.0,
+      "pilgrimage": 2661.0,
+      "education": 5492.0
+    },
+    {
+      "state": "Nagaland",
+      "holiday": 5100.0,
+      "medical": 7679.0,
+      "shopping": 11737.0,
+      "business": 3823.0,
+      "social": 2505.0,
+      "pilgrimage": 1347.0,
+      "education": 2725.0
+    },
+    {
+      "state": "Odisha",
+      "holiday": 1548.0,
+      "medical": 8607.0,
+      "shopping": 16004.0,
+      "business": 1461.0,
+      "social": 857.0,
+      "pilgrimage": 2439.0,
+      "education": 986.0
+    },
+    {
+      "state": "Punjab",
+      "holiday": 1902.0,
+      "medical": 29786.0,
+      "shopping": 4976.0,
+      "business": 967.0,
+      "social": 1104.0,
+      "pilgrimage": 1551.0,
+      "education": 1708.0
+    },
+    {
+      "state": "Rajasthan",
+      "holiday": 2566.0,
+      "medical": 13653.0,
+      "shopping": 16237.0,
+      "business": 945.0,
+      "social": 977.0,
+      "pilgrimage": 2465.0,
+      "education": 1598.0
+    },
+    {
+      "state": "Sikkim",
+      "holiday": 8259.0,
+      "medical": 11754.0,
+      "shopping": 12134.0,
+      "business": 1955.0,
+      "social": 1776.0,
+      "pilgrimage": 4418.0,
+      "education": 3852.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "holiday": 1844.0,
+      "medical": 12980.0,
+      "shopping": 3707.0,
+      "business": 9390.0,
+      "social": 808.0,
+      "pilgrimage": 1611.0,
+      "education": 2515.0
+    },
+    {
+      "state": "Telangana",
+      "holiday": 2542.0,
+      "medical": 15631.0,
+      "shopping": 9811.0,
+      "business": 156.0,
+      "social": 753.0,
+      "pilgrimage": 2064.0,
+      "education": 2546.0
+    },
+    {
+      "state": "Tripura",
+      "holiday": 1066.0,
+      "medical": 5810.0,
+      "shopping": 4835.0,
+      "business": 1800.0,
+      "social": 615.0,
+      "pilgrimage": 1160.0,
+      "education": 846.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "holiday": 1865.0,
+      "medical": 17192.0,
+      "shopping": 7315.0,
+      "business": 1474.0,
+      "social": 678.0,
+      "pilgrimage": 1527.0,
+      "education": 1684.0
+    },
+    {
+      "state": "Uttarakhand",
+      "holiday": 4575.0,
+      "medical": 9998.0,
+      "shopping": 13314.0,
+      "business": 1216.0,
+      "social": 2064.0,
+      "pilgrimage": 3938.0,
+      "education": 1310.0
+    },
+    {
+      "state": "West Bengal",
+      "holiday": 4853.0,
+      "medical": 14907.0,
+      "shopping": 17967.0,
+      "business": 3396.0,
+      "social": 459.0,
+      "pilgrimage": 840.0,
+      "education": 1952.0
+    },
+    {
+      "state": "A & N Islands",
+      "holiday": 1781.0,
+      "medical": 20972.0,
+      "shopping": 3224.0,
+      "business": 14767.0,
+      "social": 2319.0,
+      "pilgrimage": 3863.0,
+      "education": 1138.0
+    },
+    {
+      "state": "Chandigarh",
+      "holiday": 4229.0,
+      "medical": 11116.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 914.0,
+      "pilgrimage": 1673.0,
+      "education": 0.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "holiday": 3846.0,
+      "medical": 6124.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 754.0,
+      "pilgrimage": 0.0,
+      "education": 630.0
+    },
+    {
+      "state": "Daman & Diu",
+      "holiday": 5907.0,
+      "medical": 25881.0,
+      "shopping": 0.0,
+      "business": 3102.0,
+      "social": 817.0,
+      "pilgrimage": 645.0,
+      "education": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "holiday": 34373.0,
+      "medical": 34571.0,
+      "shopping": 34509.0,
+      "business": 0.0,
+      "social": 5792.0,
+      "pilgrimage": 3540.0,
+      "education": 400.0
+    },
+    {
+      "state": "Puducherry",
+      "holiday": 2762.0,
+      "medical": 10195.0,
+      "shopping": 5710.0,
+      "business": 1250.0,
+      "social": 727.0,
+      "pilgrimage": 1199.0,
+      "education": 2690.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "holiday": 5396.0,
+      "medical": 27472.0,
+      "shopping": 123095.0,
+      "business": 4025.0,
+      "social": 1241.0,
+      "pilgrimage": 4726.0,
+      "education": 1762.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "holiday": 14451.0,
+      "medical": 13040.0,
+      "shopping": 13999.0,
+      "business": 23345.0,
+      "social": 12810.0,
+      "pilgrimage": 7484.0,
+      "education": 17195.0
+    },
+    {
+      "state": "Assam",
+      "holiday": 20375.0,
+      "medical": 36460.0,
+      "shopping": 9852.0,
+      "business": 4239.0,
+      "social": 2069.0,
+      "pilgrimage": 2725.0,
+      "education": 17065.0
+    },
+    {
+      "state": "Bihar",
+      "holiday": 5469.0,
+      "medical": 11372.0,
+      "shopping": 7997.0,
+      "business": 5527.0,
+      "social": 1315.0,
+      "pilgrimage": 3101.0,
+      "education": 1981.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "holiday": 6850.0,
+      "medical": 17477.0,
+      "shopping": 34136.0,
+      "business": 3393.0,
+      "social": 1194.0,
+      "pilgrimage": 3196.0,
+      "education": 1991.0
+    },
+    {
+      "state": "Delhi",
+      "holiday": 10121.0,
+      "medical": 13547.0,
+      "shopping": 32728.0,
+      "business": 14247.0,
+      "social": 2759.0,
+      "pilgrimage": 4450.0,
+      "education": 4117.0
+    },
+    {
+      "state": "Goa",
+      "holiday": 13415.0,
+      "medical": 15930.0,
+      "shopping": 40273.0,
+      "business": 1993.0,
+      "social": 3520.0,
+      "pilgrimage": 2820.0,
+      "education": 2800.0
+    },
+    {
+      "state": "Gujarat",
+      "holiday": 12414.0,
+      "medical": 20027.0,
+      "shopping": 8746.0,
+      "business": 5327.0,
+      "social": 1525.0,
+      "pilgrimage": 3716.0,
+      "education": 5513.0
+    },
+    {
+      "state": "Haryana",
+      "holiday": 9135.0,
+      "medical": 26923.0,
+      "shopping": 10161.0,
+      "business": 8043.0,
+      "social": 2080.0,
+      "pilgrimage": 5730.0,
+      "education": 1523.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "holiday": 8265.0,
+      "medical": 18278.0,
+      "shopping": 22297.0,
+      "business": 1115.0,
+      "social": 2101.0,
+      "pilgrimage": 2298.0,
+      "education": 2171.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "holiday": 7186.0,
+      "medical": 10623.0,
+      "shopping": 8568.0,
+      "business": 4520.0,
+      "social": 1299.0,
+      "pilgrimage": 2155.0,
+      "education": 3399.0
+    },
+    {
+      "state": "Jharkhand",
+      "holiday": 3703.0,
+      "medical": 17698.0,
+      "shopping": 1404.0,
+      "business": 1360.0,
+      "social": 1117.0,
+      "pilgrimage": 4117.0,
+      "education": 1402.0
+    },
+    {
+      "state": "Karnataka",
+      "holiday": 11913.0,
+      "medical": 20229.0,
+      "shopping": 17873.0,
+      "business": 4360.0,
+      "social": 1905.0,
+      "pilgrimage": 3094.0,
+      "education": 5553.0
+    },
+    {
+      "state": "Kerala",
+      "holiday": 11297.0,
+      "medical": 18686.0,
+      "shopping": 83722.0,
+      "business": 19971.0,
+      "social": 1202.0,
+      "pilgrimage": 3719.0,
+      "education": 3223.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "holiday": 6423.0,
+      "medical": 15925.0,
+      "shopping": 7169.0,
+      "business": 1861.0,
+      "social": 1255.0,
+      "pilgrimage": 4235.0,
+      "education": 1227.0
+    },
+    {
+      "state": "Maharashtra",
+      "holiday": 10199.0,
+      "medical": 24043.0,
+      "shopping": 14859.0,
+      "business": 5195.0,
+      "social": 2323.0,
+      "pilgrimage": 5015.0,
+      "education": 3422.0
+    },
+    {
+      "state": "Manipur",
+      "holiday": 5639.0,
+      "medical": 15257.0,
+      "shopping": 11076.0,
+      "business": 13688.0,
+      "social": 2166.0,
+      "pilgrimage": 4756.0,
+      "education": 10628.0
+    },
+    {
+      "state": "Meghalaya",
+      "holiday": 13698.0,
+      "medical": 17524.0,
+      "shopping": 32106.0,
+      "business": 10553.0,
+      "social": 7338.0,
+      "pilgrimage": 4798.0,
+      "education": 5702.0
+    },
+    {
+      "state": "Mizoram",
+      "holiday": 6324.0,
+      "medical": 29803.0,
+      "shopping": 20567.0,
+      "business": 6978.0,
+      "social": 3078.0,
+      "pilgrimage": 2518.0,
+      "education": 14531.0
+    },
+    {
+      "state": "Nagaland",
+      "holiday": 9494.0,
+      "medical": 23709.0,
+      "shopping": 12962.0,
+      "business": 6958.0,
+      "social": 3383.0,
+      "pilgrimage": 11638.0,
+      "education": 6686.0
+    },
+    {
+      "state": "Odisha",
+      "holiday": 2821.0,
+      "medical": 13753.0,
+      "shopping": 8392.0,
+      "business": 2832.0,
+      "social": 942.0,
+      "pilgrimage": 3281.0,
+      "education": 4138.0
+    },
+    {
+      "state": "Punjab",
+      "holiday": 3907.0,
+      "medical": 37588.0,
+      "shopping": 9239.0,
+      "business": 1764.0,
+      "social": 2284.0,
+      "pilgrimage": 1780.0,
+      "education": 2838.0
+    },
+    {
+      "state": "Rajasthan",
+      "holiday": 8353.0,
+      "medical": 23732.0,
+      "shopping": 6351.0,
+      "business": 5438.0,
+      "social": 1661.0,
+      "pilgrimage": 4135.0,
+      "education": 2040.0
+    },
+    {
+      "state": "Sikkim",
+      "holiday": 35508.0,
+      "medical": 28921.0,
+      "shopping": 0.0,
+      "business": 14023.0,
+      "social": 2164.0,
+      "pilgrimage": 22250.0,
+      "education": 17833.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "holiday": 6890.0,
+      "medical": 23981.0,
+      "shopping": 10233.0,
+      "business": 3252.0,
+      "social": 1258.0,
+      "pilgrimage": 2862.0,
+      "education": 2007.0
+    },
+    {
+      "state": "Telangana",
+      "holiday": 9777.0,
+      "medical": 24270.0,
+      "shopping": 18032.0,
+      "business": 4657.0,
+      "social": 1404.0,
+      "pilgrimage": 5675.0,
+      "education": 2272.0
+    },
+    {
+      "state": "Tripura",
+      "holiday": 13951.0,
+      "medical": 16626.0,
+      "shopping": 18100.0,
+      "business": 377.0,
+      "social": 844.0,
+      "pilgrimage": 3595.0,
+      "education": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "holiday": 9352.0,
+      "medical": 22563.0,
+      "shopping": 9518.0,
+      "business": 1755.0,
+      "social": 1452.0,
+      "pilgrimage": 2634.0,
+      "education": 2062.0
+    },
+    {
+      "state": "Uttarakhand",
+      "holiday": 6057.0,
+      "medical": 29341.0,
+      "shopping": 10617.0,
+      "business": 1675.0,
+      "social": 2512.0,
+      "pilgrimage": 4592.0,
+      "education": 1424.0
+    },
+    {
+      "state": "West Bengal",
+      "holiday": 14349.0,
+      "medical": 19684.0,
+      "shopping": 2612.0,
+      "business": 4726.0,
+      "social": 1183.0,
+      "pilgrimage": 2640.0,
+      "education": 7326.0
+    },
+    {
+      "state": "A & N Islands",
+      "holiday": 51713.0,
+      "medical": 45477.0,
+      "shopping": 9645.0,
+      "business": 508.0,
+      "social": 4651.0,
+      "pilgrimage": 10893.0,
+      "education": 17830.0
+    },
+    {
+      "state": "Chandigarh",
+      "holiday": 23157.0,
+      "medical": 21173.0,
+      "shopping": 50820.0,
+      "business": 1400.0,
+      "social": 3558.0,
+      "pilgrimage": 1584.0,
+      "education": 1226.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "holiday": 7518.0,
+      "medical": 8290.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 1436.0,
+      "pilgrimage": 1850.0,
+      "education": 0.0
+    },
+    {
+      "state": "Daman & Diu",
+      "holiday": 8137.0,
+      "medical": 14487.0,
+      "shopping": 10485.0,
+      "business": 250.0,
+      "social": 2621.0,
+      "pilgrimage": 0.0,
+      "education": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "holiday": 15987.0,
+      "medical": 29494.0,
+      "shopping": 36686.0,
+      "business": 0.0,
+      "social": 3332.0,
+      "pilgrimage": 1359.0,
+      "education": 7330.0
+    },
+    {
+      "state": "Puducherry",
+      "holiday": 3655.0,
+      "medical": 8481.0,
+      "shopping": 19782.0,
+      "business": 1548.0,
+      "social": 1719.0,
+      "pilgrimage": 2814.0,
+      "education": 0.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "holiday": 3319.0,
+      "medical": 17430.0,
+      "shopping": 69963.0,
+      "business": 4799.0,
+      "social": 758.0,
+      "pilgrimage": 2866.0,
+      "education": 1042.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "holiday": 10648.0,
+      "medical": 10791.0,
+      "shopping": 13131.0,
+      "business": 13257.0,
+      "social": 8523.0,
+      "pilgrimage": 5793.0,
+      "education": 7882.0
+    },
+    {
+      "state": "Assam",
+      "holiday": 10988.0,
+      "medical": 10817.0,
+      "shopping": 6955.0,
+      "business": 2083.0,
+      "social": 1160.0,
+      "pilgrimage": 1672.0,
+      "education": 6908.0
+    },
+    {
+      "state": "Bihar",
+      "holiday": 3022.0,
+      "medical": 7009.0,
+      "shopping": 14740.0,
+      "business": 3715.0,
+      "social": 1322.0,
+      "pilgrimage": 2839.0,
+      "education": 1625.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "holiday": 5692.0,
+      "medical": 13587.0,
+      "shopping": 27391.0,
+      "business": 3146.0,
+      "social": 734.0,
+      "pilgrimage": 2361.0,
+      "education": 1061.0
+    },
+    {
+      "state": "Delhi",
+      "holiday": 10122.0,
+      "medical": 13267.0,
+      "shopping": 32728.0,
+      "business": 14247.0,
+      "social": 2691.0,
+      "pilgrimage": 4494.0,
+      "education": 4117.0
+    },
+    {
+      "state": "Goa",
+      "holiday": 13026.0,
+      "medical": 14055.0,
+      "shopping": 30575.0,
+      "business": 1199.0,
+      "social": 2794.0,
+      "pilgrimage": 2565.0,
+      "education": 3543.0
+    },
+    {
+      "state": "Gujarat",
+      "holiday": 10123.0,
+      "medical": 15546.0,
+      "shopping": 7621.0,
+      "business": 4751.0,
+      "social": 1109.0,
+      "pilgrimage": 3222.0,
+      "education": 2702.0
+    },
+    {
+      "state": "Haryana",
+      "holiday": 6878.0,
+      "medical": 21075.0,
+      "shopping": 8856.0,
+      "business": 4250.0,
+      "social": 1549.0,
+      "pilgrimage": 4884.0,
+      "education": 3436.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "holiday": 10286.0,
+      "medical": 14679.0,
+      "shopping": 12684.0,
+      "business": 4819.0,
+      "social": 1031.0,
+      "pilgrimage": 2115.0,
+      "education": 1999.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "holiday": 5144.0,
+      "medical": 7061.0,
+      "shopping": 9211.0,
+      "business": 2333.0,
+      "social": 1409.0,
+      "pilgrimage": 1980.0,
+      "education": 3287.0
+    },
+    {
+      "state": "Jharkhand",
+      "holiday": 3113.0,
+      "medical": 10694.0,
+      "shopping": 2125.0,
+      "business": 903.0,
+      "social": 806.0,
+      "pilgrimage": 2198.0,
+      "education": 1086.0
+    },
+    {
+      "state": "Karnataka",
+      "holiday": 9967.0,
+      "medical": 15862.0,
+      "shopping": 10814.0,
+      "business": 3753.0,
+      "social": 1268.0,
+      "pilgrimage": 2753.0,
+      "education": 3716.0
+    },
+    {
+      "state": "Kerala",
+      "holiday": 9066.0,
+      "medical": 16443.0,
+      "shopping": 80185.0,
+      "business": 15050.0,
+      "social": 986.0,
+      "pilgrimage": 2989.0,
+      "education": 2366.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "holiday": 4440.0,
+      "medical": 10532.0,
+      "shopping": 8628.0,
+      "business": 1440.0,
+      "social": 892.0,
+      "pilgrimage": 2921.0,
+      "education": 978.0
+    },
+    {
+      "state": "Maharashtra",
+      "holiday": 6615.0,
+      "medical": 18071.0,
+      "shopping": 7491.0,
+      "business": 3422.0,
+      "social": 1544.0,
+      "pilgrimage": 3335.0,
+      "education": 2300.0
+    },
+    {
+      "state": "Manipur",
+      "holiday": 7525.0,
+      "medical": 11287.0,
+      "shopping": 10570.0,
+      "business": 12770.0,
+      "social": 2347.0,
+      "pilgrimage": 4078.0,
+      "education": 5860.0
+    },
+    {
+      "state": "Meghalaya",
+      "holiday": 5325.0,
+      "medical": 5802.0,
+      "shopping": 11889.0,
+      "business": 4890.0,
+      "social": 2948.0,
+      "pilgrimage": 1986.0,
+      "education": 3367.0
+    },
+    {
+      "state": "Mizoram",
+      "holiday": 6296.0,
+      "medical": 15140.0,
+      "shopping": 10606.0,
+      "business": 5472.0,
+      "social": 2494.0,
+      "pilgrimage": 2596.0,
+      "education": 10711.0
+    },
+    {
+      "state": "Nagaland",
+      "holiday": 6658.0,
+      "medical": 11999.0,
+      "shopping": 11997.0,
+      "business": 4450.0,
+      "social": 2730.0,
+      "pilgrimage": 2823.0,
+      "education": 4520.0
+    },
+    {
+      "state": "Odisha",
+      "holiday": 2023.0,
+      "medical": 9244.0,
+      "shopping": 14533.0,
+      "business": 1824.0,
+      "social": 871.0,
+      "pilgrimage": 2626.0,
+      "education": 1777.0
+    },
+    {
+      "state": "Punjab",
+      "holiday": 3261.0,
+      "medical": 31512.0,
+      "shopping": 7654.0,
+      "business": 1266.0,
+      "social": 1517.0,
+      "pilgrimage": 1620.0,
+      "education": 2295.0
+    },
+    {
+      "state": "Rajasthan",
+      "holiday": 5764.0,
+      "medical": 15058.0,
+      "shopping": 13340.0,
+      "business": 2214.0,
+      "social": 1141.0,
+      "pilgrimage": 2866.0,
+      "education": 1793.0
+    },
+    {
+      "state": "Sikkim",
+      "holiday": 13215.0,
+      "medical": 13752.0,
+      "shopping": 12134.0,
+      "business": 9948.0,
+      "social": 1831.0,
+      "pilgrimage": 6105.0,
+      "education": 4470.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "holiday": 4849.0,
+      "medical": 17410.0,
+      "shopping": 6785.0,
+      "business": 6301.0,
+      "social": 1033.0,
+      "pilgrimage": 2188.0,
+      "education": 2290.0
+    },
+    {
+      "state": "Telangana",
+      "holiday": 7311.0,
+      "medical": 17470.0,
+      "shopping": 12122.0,
+      "business": 3080.0,
+      "social": 1005.0,
+      "pilgrimage": 3324.0,
+      "education": 2290.0
+    },
+    {
+      "state": "Tripura",
+      "holiday": 5150.0,
+      "medical": 8155.0,
+      "shopping": 5220.0,
+      "business": 576.0,
+      "social": 660.0,
+      "pilgrimage": 1504.0,
+      "education": 846.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "holiday": 4649.0,
+      "medical": 18196.0,
+      "shopping": 8445.0,
+      "business": 1537.0,
+      "social": 833.0,
+      "pilgrimage": 1817.0,
+      "education": 1806.0
+    },
+    {
+      "state": "Uttarakhand",
+      "holiday": 5115.0,
+      "medical": 13211.0,
+      "shopping": 12987.0,
+      "business": 1297.0,
+      "social": 2181.0,
+      "pilgrimage": 4076.0,
+      "education": 1326.0
+    },
+    {
+      "state": "West Bengal",
+      "holiday": 11120.0,
+      "medical": 15908.0,
+      "shopping": 14225.0,
+      "business": 3952.0,
+      "social": 638.0,
+      "pilgrimage": 1560.0,
+      "education": 3069.0
+    },
+    {
+      "state": "A & N Islands",
+      "holiday": 14486.0,
+      "medical": 27328.0,
+      "shopping": 3636.0,
+      "business": 2176.0,
+      "social": 3162.0,
+      "pilgrimage": 5317.0,
+      "education": 7836.0
+    },
+    {
+      "state": "Chandigarh",
+      "holiday": 22444.0,
+      "medical": 21072.0,
+      "shopping": 50820.0,
+      "business": 1400.0,
+      "social": 3344.0,
+      "pilgrimage": 1586.0,
+      "education": 1226.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "holiday": 6873.0,
+      "medical": 6978.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 1015.0,
+      "pilgrimage": 1850.0,
+      "education": 630.0
+    },
+    {
+      "state": "Daman & Diu",
+      "holiday": 7405.0,
+      "medical": 16045.0,
+      "shopping": 10485.0,
+      "business": 1476.0,
+      "social": 2306.0,
+      "pilgrimage": 645.0,
+      "education": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "holiday": 17425.0,
+      "medical": 30311.0,
+      "shopping": 36498.0,
+      "business": 0.0,
+      "social": 4468.0,
+      "pilgrimage": 1562.0,
+      "education": 1358.0
+    },
+    {
+      "state": "Puducherry",
+      "holiday": 3274.0,
+      "medical": 9036.0,
+      "shopping": 18067.0,
+      "business": 1537.0,
+      "social": 1537.0,
+      "pilgrimage": 2406.0,
+      "education": 2690.0
+    }
+  ],
+  "stateExpenditure": [
+    {
+      "state": "Andhra Pradesh",
+      "holiday": 1718.0,
+      "medical": 15169.0,
+      "shopping": 4848.0,
+      "business": 5070.0,
+      "social": 449.0,
+      "pilgrimage": 1868.0,
+      "education": 843.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "holiday": 9429.0,
+      "medical": 10268.0,
+      "shopping": 12946.0,
+      "business": 11284.0,
+      "social": 7009.0,
+      "pilgrimage": 5499.0,
+      "education": 6363.0
+    },
+    {
+      "state": "Assam",
+      "holiday": 5485.0,
+      "medical": 6710.0,
+      "shopping": 6230.0,
+      "business": 1550.0,
+      "social": 1039.0,
+      "pilgrimage": 1398.0,
+      "education": 2472.0
+    },
+    {
+      "state": "Bihar",
+      "holiday": 2518.0,
+      "medical": 6616.0,
+      "shopping": 16400.0,
+      "business": 2007.0,
+      "social": 1322.0,
+      "pilgrimage": 2797.0,
+      "education": 942.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "holiday": 4523.0,
+      "medical": 12907.0,
+      "shopping": 6369.0,
+      "business": 2854.0,
+      "social": 626.0,
+      "pilgrimage": 2217.0,
+      "education": 950.0
+    },
+    {
+      "state": "Delhi",
+      "holiday": 10222.0,
+      "medical": 5798.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 1729.0,
+      "pilgrimage": 6184.0,
+      "education": 0.0
+    },
+    {
+      "state": "Goa",
+      "holiday": 10756.0,
+      "medical": 11261.0,
+      "shopping": 9724.0,
+      "business": 226.0,
+      "social": 1148.0,
+      "pilgrimage": 1489.0,
+      "education": 7050.0
+    },
+    {
+      "state": "Gujarat",
+      "holiday": 4699.0,
+      "medical": 14557.0,
+      "shopping": 5151.0,
+      "business": 1232.0,
+      "social": 754.0,
+      "pilgrimage": 2661.0,
+      "education": 815.0
+    },
+    {
+      "state": "Haryana",
+      "holiday": 3546.0,
+      "medical": 18728.0,
+      "shopping": 5298.0,
+      "business": 2534.0,
+      "social": 1235.0,
+      "pilgrimage": 4007.0,
+      "education": 5270.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "holiday": 11151.0,
+      "medical": 14449.0,
+      "shopping": 6706.0,
+      "business": 5110.0,
+      "social": 918.0,
+      "pilgrimage": 2113.0,
+      "education": 1973.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "holiday": 4141.0,
+      "medical": 6365.0,
+      "shopping": 9293.0,
+      "business": 1480.0,
+      "social": 1430.0,
+      "pilgrimage": 1899.0,
+      "education": 3262.0
+    },
+    {
+      "state": "Jharkhand",
+      "holiday": 1965.0,
+      "medical": 8950.0,
+      "shopping": 2168.0,
+      "business": 653.0,
+      "social": 706.0,
+      "pilgrimage": 1560.0,
+      "education": 880.0
+    },
+    {
+      "state": "Karnataka",
+      "holiday": 5771.0,
+      "medical": 14763.0,
+      "shopping": 5600.0,
+      "business": 2273.0,
+      "social": 852.0,
+      "pilgrimage": 2560.0,
+      "education": 1801.0
+    },
+    {
+      "state": "Kerala",
+      "holiday": 5330.0,
+      "medical": 15047.0,
+      "shopping": 68609.0,
+      "business": 2708.0,
+      "social": 772.0,
+      "pilgrimage": 2247.0,
+      "education": 1666.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "holiday": 2290.0,
+      "medical": 9175.0,
+      "shopping": 9109.0,
+      "business": 953.0,
+      "social": 766.0,
+      "pilgrimage": 2561.0,
+      "education": 806.0
+    },
+    {
+      "state": "Maharashtra",
+      "holiday": 2159.0,
+      "medical": 16498.0,
+      "shopping": 5650.0,
+      "business": 820.0,
+      "social": 1039.0,
+      "pilgrimage": 1993.0,
+      "education": 1352.0
+    },
+    {
+      "state": "Manipur",
+      "holiday": 8543.0,
+      "medical": 9472.0,
+      "shopping": 10372.0,
+      "business": 12131.0,
+      "social": 2424.0,
+      "pilgrimage": 3769.0,
+      "education": 4281.0
+    },
+    {
+      "state": "Meghalaya",
+      "holiday": 2459.0,
+      "medical": 3756.0,
+      "shopping": 8555.0,
+      "business": 3391.0,
+      "social": 1859.0,
+      "pilgrimage": 1674.0,
+      "education": 1759.0
+    },
+    {
+      "state": "Mizoram",
+      "holiday": 6260.0,
+      "medical": 7857.0,
+      "shopping": 8525.0,
+      "business": 4431.0,
+      "social": 2023.0,
+      "pilgrimage": 2661.0,
+      "education": 5492.0
+    },
+    {
+      "state": "Nagaland",
+      "holiday": 5100.0,
+      "medical": 7679.0,
+      "shopping": 11737.0,
+      "business": 3823.0,
+      "social": 2505.0,
+      "pilgrimage": 1347.0,
+      "education": 2725.0
+    },
+    {
+      "state": "Odisha",
+      "holiday": 1548.0,
+      "medical": 8607.0,
+      "shopping": 16004.0,
+      "business": 1461.0,
+      "social": 857.0,
+      "pilgrimage": 2439.0,
+      "education": 986.0
+    },
+    {
+      "state": "Punjab",
+      "holiday": 1902.0,
+      "medical": 29786.0,
+      "shopping": 4976.0,
+      "business": 967.0,
+      "social": 1104.0,
+      "pilgrimage": 1551.0,
+      "education": 1708.0
+    },
+    {
+      "state": "Rajasthan",
+      "holiday": 2566.0,
+      "medical": 13653.0,
+      "shopping": 16237.0,
+      "business": 945.0,
+      "social": 977.0,
+      "pilgrimage": 2465.0,
+      "education": 1598.0
+    },
+    {
+      "state": "Sikkim",
+      "holiday": 8259.0,
+      "medical": 11754.0,
+      "shopping": 12134.0,
+      "business": 1955.0,
+      "social": 1776.0,
+      "pilgrimage": 4418.0,
+      "education": 3852.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "holiday": 1844.0,
+      "medical": 12980.0,
+      "shopping": 3707.0,
+      "business": 9390.0,
+      "social": 808.0,
+      "pilgrimage": 1611.0,
+      "education": 2515.0
+    },
+    {
+      "state": "Telangana",
+      "holiday": 2542.0,
+      "medical": 15631.0,
+      "shopping": 9811.0,
+      "business": 156.0,
+      "social": 753.0,
+      "pilgrimage": 2064.0,
+      "education": 2546.0
+    },
+    {
+      "state": "Tripura",
+      "holiday": 1066.0,
+      "medical": 5810.0,
+      "shopping": 4835.0,
+      "business": 1800.0,
+      "social": 615.0,
+      "pilgrimage": 1160.0,
+      "education": 846.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "holiday": 1865.0,
+      "medical": 17192.0,
+      "shopping": 7315.0,
+      "business": 1474.0,
+      "social": 678.0,
+      "pilgrimage": 1527.0,
+      "education": 1684.0
+    },
+    {
+      "state": "Uttarakhand",
+      "holiday": 4575.0,
+      "medical": 9998.0,
+      "shopping": 13314.0,
+      "business": 1216.0,
+      "social": 2064.0,
+      "pilgrimage": 3938.0,
+      "education": 1310.0
+    },
+    {
+      "state": "West Bengal",
+      "holiday": 4853.0,
+      "medical": 14907.0,
+      "shopping": 17967.0,
+      "business": 3396.0,
+      "social": 459.0,
+      "pilgrimage": 840.0,
+      "education": 1952.0
+    },
+    {
+      "state": "A & N Islands",
+      "holiday": 1781.0,
+      "medical": 20972.0,
+      "shopping": 3224.0,
+      "business": 14767.0,
+      "social": 2319.0,
+      "pilgrimage": 3863.0,
+      "education": 1138.0
+    },
+    {
+      "state": "Chandigarh",
+      "holiday": 4229.0,
+      "medical": 11116.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 914.0,
+      "pilgrimage": 1673.0,
+      "education": 0.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "holiday": 3846.0,
+      "medical": 6124.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 754.0,
+      "pilgrimage": 0.0,
+      "education": 630.0
+    },
+    {
+      "state": "Daman & Diu",
+      "holiday": 5907.0,
+      "medical": 25881.0,
+      "shopping": 0.0,
+      "business": 3102.0,
+      "social": 817.0,
+      "pilgrimage": 645.0,
+      "education": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "holiday": 34373.0,
+      "medical": 34571.0,
+      "shopping": 34509.0,
+      "business": 0.0,
+      "social": 5792.0,
+      "pilgrimage": 3540.0,
+      "education": 400.0
+    },
+    {
+      "state": "Puducherry",
+      "holiday": 2762.0,
+      "medical": 10195.0,
+      "shopping": 5710.0,
+      "business": 1250.0,
+      "social": 727.0,
+      "pilgrimage": 1199.0,
+      "education": 2690.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "holiday": 5396.0,
+      "medical": 27472.0,
+      "shopping": 123095.0,
+      "business": 4025.0,
+      "social": 1241.0,
+      "pilgrimage": 4726.0,
+      "education": 1762.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "holiday": 14451.0,
+      "medical": 13040.0,
+      "shopping": 13999.0,
+      "business": 23345.0,
+      "social": 12810.0,
+      "pilgrimage": 7484.0,
+      "education": 17195.0
+    },
+    {
+      "state": "Assam",
+      "holiday": 20375.0,
+      "medical": 36460.0,
+      "shopping": 9852.0,
+      "business": 4239.0,
+      "social": 2069.0,
+      "pilgrimage": 2725.0,
+      "education": 17065.0
+    },
+    {
+      "state": "Bihar",
+      "holiday": 5469.0,
+      "medical": 11372.0,
+      "shopping": 7997.0,
+      "business": 5527.0,
+      "social": 1315.0,
+      "pilgrimage": 3101.0,
+      "education": 1981.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "holiday": 6850.0,
+      "medical": 17477.0,
+      "shopping": 34136.0,
+      "business": 3393.0,
+      "social": 1194.0,
+      "pilgrimage": 3196.0,
+      "education": 1991.0
+    },
+    {
+      "state": "Delhi",
+      "holiday": 10121.0,
+      "medical": 13547.0,
+      "shopping": 32728.0,
+      "business": 14247.0,
+      "social": 2759.0,
+      "pilgrimage": 4450.0,
+      "education": 4117.0
+    },
+    {
+      "state": "Goa",
+      "holiday": 13415.0,
+      "medical": 15930.0,
+      "shopping": 40273.0,
+      "business": 1993.0,
+      "social": 3520.0,
+      "pilgrimage": 2820.0,
+      "education": 2800.0
+    },
+    {
+      "state": "Gujarat",
+      "holiday": 12414.0,
+      "medical": 20027.0,
+      "shopping": 8746.0,
+      "business": 5327.0,
+      "social": 1525.0,
+      "pilgrimage": 3716.0,
+      "education": 5513.0
+    },
+    {
+      "state": "Haryana",
+      "holiday": 9135.0,
+      "medical": 26923.0,
+      "shopping": 10161.0,
+      "business": 8043.0,
+      "social": 2080.0,
+      "pilgrimage": 5730.0,
+      "education": 1523.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "holiday": 8265.0,
+      "medical": 18278.0,
+      "shopping": 22297.0,
+      "business": 1115.0,
+      "social": 2101.0,
+      "pilgrimage": 2298.0,
+      "education": 2171.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "holiday": 7186.0,
+      "medical": 10623.0,
+      "shopping": 8568.0,
+      "business": 4520.0,
+      "social": 1299.0,
+      "pilgrimage": 2155.0,
+      "education": 3399.0
+    },
+    {
+      "state": "Jharkhand",
+      "holiday": 3703.0,
+      "medical": 17698.0,
+      "shopping": 1404.0,
+      "business": 1360.0,
+      "social": 1117.0,
+      "pilgrimage": 4117.0,
+      "education": 1402.0
+    },
+    {
+      "state": "Karnataka",
+      "holiday": 11913.0,
+      "medical": 20229.0,
+      "shopping": 17873.0,
+      "business": 4360.0,
+      "social": 1905.0,
+      "pilgrimage": 3094.0,
+      "education": 5553.0
+    },
+    {
+      "state": "Kerala",
+      "holiday": 11297.0,
+      "medical": 18686.0,
+      "shopping": 83722.0,
+      "business": 19971.0,
+      "social": 1202.0,
+      "pilgrimage": 3719.0,
+      "education": 3223.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "holiday": 6423.0,
+      "medical": 15925.0,
+      "shopping": 7169.0,
+      "business": 1861.0,
+      "social": 1255.0,
+      "pilgrimage": 4235.0,
+      "education": 1227.0
+    },
+    {
+      "state": "Maharashtra",
+      "holiday": 10199.0,
+      "medical": 24043.0,
+      "shopping": 14859.0,
+      "business": 5195.0,
+      "social": 2323.0,
+      "pilgrimage": 5015.0,
+      "education": 3422.0
+    },
+    {
+      "state": "Manipur",
+      "holiday": 5639.0,
+      "medical": 15257.0,
+      "shopping": 11076.0,
+      "business": 13688.0,
+      "social": 2166.0,
+      "pilgrimage": 4756.0,
+      "education": 10628.0
+    },
+    {
+      "state": "Meghalaya",
+      "holiday": 13698.0,
+      "medical": 17524.0,
+      "shopping": 32106.0,
+      "business": 10553.0,
+      "social": 7338.0,
+      "pilgrimage": 4798.0,
+      "education": 5702.0
+    },
+    {
+      "state": "Mizoram",
+      "holiday": 6324.0,
+      "medical": 29803.0,
+      "shopping": 20567.0,
+      "business": 6978.0,
+      "social": 3078.0,
+      "pilgrimage": 2518.0,
+      "education": 14531.0
+    },
+    {
+      "state": "Nagaland",
+      "holiday": 9494.0,
+      "medical": 23709.0,
+      "shopping": 12962.0,
+      "business": 6958.0,
+      "social": 3383.0,
+      "pilgrimage": 11638.0,
+      "education": 6686.0
+    },
+    {
+      "state": "Odisha",
+      "holiday": 2821.0,
+      "medical": 13753.0,
+      "shopping": 8392.0,
+      "business": 2832.0,
+      "social": 942.0,
+      "pilgrimage": 3281.0,
+      "education": 4138.0
+    },
+    {
+      "state": "Punjab",
+      "holiday": 3907.0,
+      "medical": 37588.0,
+      "shopping": 9239.0,
+      "business": 1764.0,
+      "social": 2284.0,
+      "pilgrimage": 1780.0,
+      "education": 2838.0
+    },
+    {
+      "state": "Rajasthan",
+      "holiday": 8353.0,
+      "medical": 23732.0,
+      "shopping": 6351.0,
+      "business": 5438.0,
+      "social": 1661.0,
+      "pilgrimage": 4135.0,
+      "education": 2040.0
+    },
+    {
+      "state": "Sikkim",
+      "holiday": 35508.0,
+      "medical": 28921.0,
+      "shopping": 0.0,
+      "business": 14023.0,
+      "social": 2164.0,
+      "pilgrimage": 22250.0,
+      "education": 17833.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "holiday": 6890.0,
+      "medical": 23981.0,
+      "shopping": 10233.0,
+      "business": 3252.0,
+      "social": 1258.0,
+      "pilgrimage": 2862.0,
+      "education": 2007.0
+    },
+    {
+      "state": "Telangana",
+      "holiday": 9777.0,
+      "medical": 24270.0,
+      "shopping": 18032.0,
+      "business": 4657.0,
+      "social": 1404.0,
+      "pilgrimage": 5675.0,
+      "education": 2272.0
+    },
+    {
+      "state": "Tripura",
+      "holiday": 13951.0,
+      "medical": 16626.0,
+      "shopping": 18100.0,
+      "business": 377.0,
+      "social": 844.0,
+      "pilgrimage": 3595.0,
+      "education": 0.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "holiday": 9352.0,
+      "medical": 22563.0,
+      "shopping": 9518.0,
+      "business": 1755.0,
+      "social": 1452.0,
+      "pilgrimage": 2634.0,
+      "education": 2062.0
+    },
+    {
+      "state": "Uttarakhand",
+      "holiday": 6057.0,
+      "medical": 29341.0,
+      "shopping": 10617.0,
+      "business": 1675.0,
+      "social": 2512.0,
+      "pilgrimage": 4592.0,
+      "education": 1424.0
+    },
+    {
+      "state": "West Bengal",
+      "holiday": 14349.0,
+      "medical": 19684.0,
+      "shopping": 2612.0,
+      "business": 4726.0,
+      "social": 1183.0,
+      "pilgrimage": 2640.0,
+      "education": 7326.0
+    },
+    {
+      "state": "A & N Islands",
+      "holiday": 51713.0,
+      "medical": 45477.0,
+      "shopping": 9645.0,
+      "business": 508.0,
+      "social": 4651.0,
+      "pilgrimage": 10893.0,
+      "education": 17830.0
+    },
+    {
+      "state": "Chandigarh",
+      "holiday": 23157.0,
+      "medical": 21173.0,
+      "shopping": 50820.0,
+      "business": 1400.0,
+      "social": 3558.0,
+      "pilgrimage": 1584.0,
+      "education": 1226.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "holiday": 7518.0,
+      "medical": 8290.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 1436.0,
+      "pilgrimage": 1850.0,
+      "education": 0.0
+    },
+    {
+      "state": "Daman & Diu",
+      "holiday": 8137.0,
+      "medical": 14487.0,
+      "shopping": 10485.0,
+      "business": 250.0,
+      "social": 2621.0,
+      "pilgrimage": 0.0,
+      "education": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "holiday": 15987.0,
+      "medical": 29494.0,
+      "shopping": 36686.0,
+      "business": 0.0,
+      "social": 3332.0,
+      "pilgrimage": 1359.0,
+      "education": 7330.0
+    },
+    {
+      "state": "Puducherry",
+      "holiday": 3655.0,
+      "medical": 8481.0,
+      "shopping": 19782.0,
+      "business": 1548.0,
+      "social": 1719.0,
+      "pilgrimage": 2814.0,
+      "education": 0.0
+    },
+    {
+      "state": "Andhra Pradesh",
+      "holiday": 3319.0,
+      "medical": 17430.0,
+      "shopping": 69963.0,
+      "business": 4799.0,
+      "social": 758.0,
+      "pilgrimage": 2866.0,
+      "education": 1042.0
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "holiday": 10648.0,
+      "medical": 10791.0,
+      "shopping": 13131.0,
+      "business": 13257.0,
+      "social": 8523.0,
+      "pilgrimage": 5793.0,
+      "education": 7882.0
+    },
+    {
+      "state": "Assam",
+      "holiday": 10988.0,
+      "medical": 10817.0,
+      "shopping": 6955.0,
+      "business": 2083.0,
+      "social": 1160.0,
+      "pilgrimage": 1672.0,
+      "education": 6908.0
+    },
+    {
+      "state": "Bihar",
+      "holiday": 3022.0,
+      "medical": 7009.0,
+      "shopping": 14740.0,
+      "business": 3715.0,
+      "social": 1322.0,
+      "pilgrimage": 2839.0,
+      "education": 1625.0
+    },
+    {
+      "state": "Chhattisgarh",
+      "holiday": 5692.0,
+      "medical": 13587.0,
+      "shopping": 27391.0,
+      "business": 3146.0,
+      "social": 734.0,
+      "pilgrimage": 2361.0,
+      "education": 1061.0
+    },
+    {
+      "state": "Delhi",
+      "holiday": 10122.0,
+      "medical": 13267.0,
+      "shopping": 32728.0,
+      "business": 14247.0,
+      "social": 2691.0,
+      "pilgrimage": 4494.0,
+      "education": 4117.0
+    },
+    {
+      "state": "Goa",
+      "holiday": 13026.0,
+      "medical": 14055.0,
+      "shopping": 30575.0,
+      "business": 1199.0,
+      "social": 2794.0,
+      "pilgrimage": 2565.0,
+      "education": 3543.0
+    },
+    {
+      "state": "Gujarat",
+      "holiday": 10123.0,
+      "medical": 15546.0,
+      "shopping": 7621.0,
+      "business": 4751.0,
+      "social": 1109.0,
+      "pilgrimage": 3222.0,
+      "education": 2702.0
+    },
+    {
+      "state": "Haryana",
+      "holiday": 6878.0,
+      "medical": 21075.0,
+      "shopping": 8856.0,
+      "business": 4250.0,
+      "social": 1549.0,
+      "pilgrimage": 4884.0,
+      "education": 3436.0
+    },
+    {
+      "state": "Himachal Pradesh",
+      "holiday": 10286.0,
+      "medical": 14679.0,
+      "shopping": 12684.0,
+      "business": 4819.0,
+      "social": 1031.0,
+      "pilgrimage": 2115.0,
+      "education": 1999.0
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "holiday": 5144.0,
+      "medical": 7061.0,
+      "shopping": 9211.0,
+      "business": 2333.0,
+      "social": 1409.0,
+      "pilgrimage": 1980.0,
+      "education": 3287.0
+    },
+    {
+      "state": "Jharkhand",
+      "holiday": 3113.0,
+      "medical": 10694.0,
+      "shopping": 2125.0,
+      "business": 903.0,
+      "social": 806.0,
+      "pilgrimage": 2198.0,
+      "education": 1086.0
+    },
+    {
+      "state": "Karnataka",
+      "holiday": 9967.0,
+      "medical": 15862.0,
+      "shopping": 10814.0,
+      "business": 3753.0,
+      "social": 1268.0,
+      "pilgrimage": 2753.0,
+      "education": 3716.0
+    },
+    {
+      "state": "Kerala",
+      "holiday": 9066.0,
+      "medical": 16443.0,
+      "shopping": 80185.0,
+      "business": 15050.0,
+      "social": 986.0,
+      "pilgrimage": 2989.0,
+      "education": 2366.0
+    },
+    {
+      "state": "Madhya Pradesh",
+      "holiday": 4440.0,
+      "medical": 10532.0,
+      "shopping": 8628.0,
+      "business": 1440.0,
+      "social": 892.0,
+      "pilgrimage": 2921.0,
+      "education": 978.0
+    },
+    {
+      "state": "Maharashtra",
+      "holiday": 6615.0,
+      "medical": 18071.0,
+      "shopping": 7491.0,
+      "business": 3422.0,
+      "social": 1544.0,
+      "pilgrimage": 3335.0,
+      "education": 2300.0
+    },
+    {
+      "state": "Manipur",
+      "holiday": 7525.0,
+      "medical": 11287.0,
+      "shopping": 10570.0,
+      "business": 12770.0,
+      "social": 2347.0,
+      "pilgrimage": 4078.0,
+      "education": 5860.0
+    },
+    {
+      "state": "Meghalaya",
+      "holiday": 5325.0,
+      "medical": 5802.0,
+      "shopping": 11889.0,
+      "business": 4890.0,
+      "social": 2948.0,
+      "pilgrimage": 1986.0,
+      "education": 3367.0
+    },
+    {
+      "state": "Mizoram",
+      "holiday": 6296.0,
+      "medical": 15140.0,
+      "shopping": 10606.0,
+      "business": 5472.0,
+      "social": 2494.0,
+      "pilgrimage": 2596.0,
+      "education": 10711.0
+    },
+    {
+      "state": "Nagaland",
+      "holiday": 6658.0,
+      "medical": 11999.0,
+      "shopping": 11997.0,
+      "business": 4450.0,
+      "social": 2730.0,
+      "pilgrimage": 2823.0,
+      "education": 4520.0
+    },
+    {
+      "state": "Odisha",
+      "holiday": 2023.0,
+      "medical": 9244.0,
+      "shopping": 14533.0,
+      "business": 1824.0,
+      "social": 871.0,
+      "pilgrimage": 2626.0,
+      "education": 1777.0
+    },
+    {
+      "state": "Punjab",
+      "holiday": 3261.0,
+      "medical": 31512.0,
+      "shopping": 7654.0,
+      "business": 1266.0,
+      "social": 1517.0,
+      "pilgrimage": 1620.0,
+      "education": 2295.0
+    },
+    {
+      "state": "Rajasthan",
+      "holiday": 5764.0,
+      "medical": 15058.0,
+      "shopping": 13340.0,
+      "business": 2214.0,
+      "social": 1141.0,
+      "pilgrimage": 2866.0,
+      "education": 1793.0
+    },
+    {
+      "state": "Sikkim",
+      "holiday": 13215.0,
+      "medical": 13752.0,
+      "shopping": 12134.0,
+      "business": 9948.0,
+      "social": 1831.0,
+      "pilgrimage": 6105.0,
+      "education": 4470.0
+    },
+    {
+      "state": "Tamil Nadu",
+      "holiday": 4849.0,
+      "medical": 17410.0,
+      "shopping": 6785.0,
+      "business": 6301.0,
+      "social": 1033.0,
+      "pilgrimage": 2188.0,
+      "education": 2290.0
+    },
+    {
+      "state": "Telangana",
+      "holiday": 7311.0,
+      "medical": 17470.0,
+      "shopping": 12122.0,
+      "business": 3080.0,
+      "social": 1005.0,
+      "pilgrimage": 3324.0,
+      "education": 2290.0
+    },
+    {
+      "state": "Tripura",
+      "holiday": 5150.0,
+      "medical": 8155.0,
+      "shopping": 5220.0,
+      "business": 576.0,
+      "social": 660.0,
+      "pilgrimage": 1504.0,
+      "education": 846.0
+    },
+    {
+      "state": "Uttar Pradesh",
+      "holiday": 4649.0,
+      "medical": 18196.0,
+      "shopping": 8445.0,
+      "business": 1537.0,
+      "social": 833.0,
+      "pilgrimage": 1817.0,
+      "education": 1806.0
+    },
+    {
+      "state": "Uttarakhand",
+      "holiday": 5115.0,
+      "medical": 13211.0,
+      "shopping": 12987.0,
+      "business": 1297.0,
+      "social": 2181.0,
+      "pilgrimage": 4076.0,
+      "education": 1326.0
+    },
+    {
+      "state": "West Bengal",
+      "holiday": 11120.0,
+      "medical": 15908.0,
+      "shopping": 14225.0,
+      "business": 3952.0,
+      "social": 638.0,
+      "pilgrimage": 1560.0,
+      "education": 3069.0
+    },
+    {
+      "state": "A & N Islands",
+      "holiday": 14486.0,
+      "medical": 27328.0,
+      "shopping": 3636.0,
+      "business": 2176.0,
+      "social": 3162.0,
+      "pilgrimage": 5317.0,
+      "education": 7836.0
+    },
+    {
+      "state": "Chandigarh",
+      "holiday": 22444.0,
+      "medical": 21072.0,
+      "shopping": 50820.0,
+      "business": 1400.0,
+      "social": 3344.0,
+      "pilgrimage": 1586.0,
+      "education": 1226.0
+    },
+    {
+      "state": "Dadra & N. Haveli",
+      "holiday": 6873.0,
+      "medical": 6978.0,
+      "shopping": 0.0,
+      "business": 0.0,
+      "social": 1015.0,
+      "pilgrimage": 1850.0,
+      "education": 630.0
+    },
+    {
+      "state": "Daman & Diu",
+      "holiday": 7405.0,
+      "medical": 16045.0,
+      "shopping": 10485.0,
+      "business": 1476.0,
+      "social": 2306.0,
+      "pilgrimage": 645.0,
+      "education": 0.0
+    },
+    {
+      "state": "Lakshadweep",
+      "holiday": 17425.0,
+      "medical": 30311.0,
+      "shopping": 36498.0,
+      "business": 0.0,
+      "social": 4468.0,
+      "pilgrimage": 1562.0,
+      "education": 1358.0
+    },
+    {
+      "state": "Puducherry",
+      "holiday": 3274.0,
+      "medical": 9036.0,
+      "shopping": 18067.0,
+      "business": 1537.0,
+      "social": 1537.0,
+      "pilgrimage": 2406.0,
+      "education": 2690.0
+    }
+  ],
+  "tripPurposeDistributionUrban": {
+    "holidaying_leisure": 58.9,
+    "social_visiting": 25.0,
+    "business": 12.9,
+    "pilgrimage_religious": 2.0,
+    "education_training": 0.9,
+    "medical_health": 0.3
+  }
+}
